@@ -152,13 +152,13 @@ tr:hover td{background:#f7f9fd}
       <div class="tablewrap"><table class="peerTable">
         <thead><tr><th>Bank</th><th>GNPA %</th><th>NNPA %</th><th>PCR %</th><th>Slippage %</th><th>Credit cost %</th><th>Quick read</th></tr></thead>
         <tbody>
-          <tr><td><strong>ICICI Bank</strong></td><td>1.67</td><td>0.39</td><td>76.2</td><td>—</td><td>—</td><td>Strong long-run clean-up</td></tr>
-          <tr><td>HDFC Bank</td><td>1.33</td><td>0.43</td><td>67.86</td><td>1.30*</td><td>0.50*</td><td>Lowest GNPA</td></tr>
-          <tr><td>Axis Bank</td><td>1.38</td><td>0.35</td><td>74.6</td><td>1.90</td><td>0.80</td><td>Low NNPA; higher cost</td></tr>
-          <tr><td>Kotak Mahindra Bank</td><td>1.42</td><td>0.31</td><td>78.0</td><td>1.39</td><td>0.60</td><td>Lowest NNPA; highest PCR</td></tr>
+          <tr><td><strong><a href="https://www.icici.bank.in/about-us/article/performance-review-quarter-ended-march-31-2025" target="_blank" rel="noopener">ICICI Bank</a></strong></td><td>1.67</td><td>0.39</td><td>76.2</td><td>—</td><td>—</td><td>GNPA improved; PCR 76.2%</td></tr>
+          <tr><td><a href="https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/annual-reports/2024-25/HDFC_Bank_Annual_Report_2024_25-310202.pdf" target="_blank" rel="noopener">HDFC Bank</a></td><td>1.33</td><td>0.43</td><td>67.86</td><td>—</td><td>—</td><td>Lowest GNPA</td></tr>
+          <tr><td><a href="https://www.axis.bank.in/quarterly-results/2024-2025/q4/index.html" target="_blank" rel="noopener">Axis Bank</a></td><td>1.28</td><td>0.33</td><td>75.0</td><td>—</td><td>—</td><td>Lowest GNPA; PCR 75%</td></tr>
+          <tr><td><a href="https://www.kotak.bank.in/content/dam/Kotak/investor-relation/Financial-Result/QuarterlyReport/FY-2025/q4/investor-presentation/Q4FY25_Investor_Presentation.pdf" target="_blank" rel="noopener">Kotak Mahindra Bank</a></td><td>1.42</td><td>0.31</td><td>78.0</td><td>—</td><td>—</td><td>Lowest NNPA; highest PCR</td></tr>
         </tbody>
       </table></div>
-      <div class="smallnote">Peer figures in this scorecard and peer trend charts have not yet been independently reconciled to each peer's own annual report. Treat them as provisional and do not use them as verified comparisons.</div>
+      <div class="smallnote">Source: each bank's FY2025 results / annual report (linked in bank names). GNPA, NNPA and PCR are closing ratios at 31 March 2025. Slippage and credit-cost cells are intentionally blank: banks disclose these on different bases (quarterly annualised, full-year, gross/net and differing denominators); no like-for-like four-bank FY25 series has been established. Do not compare a Q4 annualised ratio with a full-year ratio.</div>
     </div>
     <div class="card" style="margin-top:12px">
       <div class="cardhead"><h3>Gross NPA trend — FY2021 to FY2025</h3><span class="hint">LOWER IS BETTER · %</span></div>
@@ -282,9 +282,9 @@ document.getElementById('metricSelect').addEventListener('change',updateMetric);
 const peerYears=['FY21','FY22','FY23','FY24','FY25'];
 const peerSeries={
  bank:{
-  gnpa:{'ICICI Bank':[4.96,3.60,2.81,2.16,1.67],'HDFC Bank':[1.32,1.17,1.12,1.24,1.33],'Axis Bank':[4.00,3.01,2.16,1.55,1.38],'Kotak Mahindra':[3.3,2.4,1.8,1.4,1.42]},
-  nnpa:{'ICICI Bank':[1.3,.8,.5,.5,.4],'HDFC Bank':[.40,.32,.27,.31,.43],'Axis Bank':[1.15,.79,.44,.34,.35],'Kotak Mahindra':[1.2,.6,.4,.3,.31]},
-  pcr:{'ICICI Bank':[77.7,80.6,82.8,80.3,76.2],'HDFC Bank':[69.8,72.7,75.8,74.0,67.86],'Axis Bank':[72.1,74.3,80.0,78.5,74.6],'Kotak Mahindra':[63.6,73.2,79.3,75.9,78.0]},
+  gnpa:{'ICICI Bank':[4.96,3.60,2.81,2.16,1.67],'HDFC Bank':[1.32,1.17,1.12,1.24,1.33],'Axis Bank':[4.00,2.76,2.02,1.43,1.28],'Kotak Mahindra':[3.3,2.4,1.8,1.4,1.42]},
+  nnpa:{'ICICI Bank':[1.3,.8,.5,.5,.4],'HDFC Bank':[.40,.32,.27,.31,.43],'Axis Bank':[1.15,.76,.39,.31,.33],'Kotak Mahindra':[1.2,.6,.4,.3,.31]},
+  pcr:{'ICICI Bank':[77.7,80.6,82.8,80.3,76.2],'HDFC Bank':[69.8,72.7,75.8,74.0,67.86],'Axis Bank':[72.1,74.3,80.0,78.5,75.0],'Kotak Mahindra':[63.6,73.2,79.3,75.9,78.0]},
   cost:{'ICICI Bank':[null,null,null,null,null],'HDFC Bank':[1.5,1.2,.8,1.2,.5],'Axis Bank':[1.8,.8,.4,.4,.8],'Kotak Mahindra':[.8,.4,.2,.4,.6]}
  },
  nbfc:{
