@@ -136,7 +136,7 @@ tr:hover td{background:#f7f9fd}
       </div></div>
     </div>
     <div class="card" style="margin-top:14px"><div class="cardhead"><h3>Historical working data</h3><span class="hint">PERCENTAGE UNLESS SPECIFIED</span></div><div class="tablewrap"><table id="creditTable"></table></div>
-    <div class="callout">Bajaj Finance GNPA is shown on a consolidated basis for FY2023–FY2026. Earlier years are left blank because a consistent, verified consolidated series has not been established. GNPA is not inferred from NNPA.</div></div>
+    <div class="callout">Bajaj Finance GNPA is shown for FY2018–FY2026: FY2018 1.48%, FY2019 1.54%, FY2020 1.61%, FY2021 1.79%, FY2022 1.60%, FY2023 0.94%, FY2024 0.85%, FY2025 0.96% and FY2026 1.01%. FY2017 is left blank because the reported figure uses an earlier standalone / prudential basis and is not directly comparable with the consolidated Ind AS series.</div></div>
   </section>
 
 
@@ -252,7 +252,7 @@ tr:hover td{background:#f7f9fd}
 const years=['FY17','FY18','FY19','FY20','FY21','FY22','FY23','FY24','FY25','FY26'];
 const data={
  icici:{gnpa:[8.8,10.4,7.5,6.1,5.4,3.8,2.9,2.3,1.7,1.4],nnpa:[5.4,4.8,2.3,1.6,1.3,.8,.5,.5,.4,.33],pcr:[40,48,71,75.7,77.7,80.6,82.8,80.3,76.2,75.8]},
- bajaj:{gnpa:[null,null,null,null,null,null,.94,.85,.96,1.01],nnpa:[.44,.43,.63,.65,.75,.68,.34,.37,.44,.41],pcr:[74,70,60,60,58,58,64,57,54,60],loanloss:[1.6,1.5,1.6,3.1,4.1,2.8,1.5,1.6,2.2,2.3],roa:[3.7,3.7,4.2,4.1,3.1,4.2,5.3,5.1,4.6,4.3],roe:[21.6,20.1,22.5,20.2,12.8,17.4,23.5,22.1,19.2,18.1],crar:[20.3,24.7,20.7,25,28.3,27.2,25,22.5,21.9,21.6]}
+ bajaj:{gnpa:[null,1.48,1.54,1.61,1.79,1.60,.94,.85,.96,1.01],nnpa:[.44,.43,.63,.65,.75,.68,.34,.37,.44,.41],pcr:[74,70,60,60,58,58,64,57,54,60],loanloss:[1.6,1.5,1.6,3.1,4.1,2.8,1.5,1.6,2.2,2.3],roa:[3.7,3.7,4.2,4.1,3.1,4.2,5.3,5.1,4.6,4.3],roe:[21.6,20.1,22.5,20.2,12.8,17.4,23.5,22.1,19.2,18.1],crar:[20.3,24.7,20.7,25,28.3,27.2,25,22.5,21.9,21.6]}
 };
 const fmt=(v)=>v===null||v===undefined?'—':Number(v).toFixed(2).replace(/\.00$/,'');
 let overviewChart,metricChart;
