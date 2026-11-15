@@ -98,7 +98,7 @@ tr:hover td{background:#f7f9fd}
       <div class="card"><div class="klabel">ICICI GNPA · FY26</div><div class="kvalue">1.40%</div><div class="kdesc">Working series; source reconciliation pending</div></div>
       <div class="card"><div class="klabel">ICICI NNPA · FY26</div><div class="kvalue">0.33%</div><div class="kdesc">Working series; source reconciliation pending</div></div>
       <div class="card"><div class="klabel">BAJAJ GNPA · FY26</div><div class="kvalue">1.01%</div><div class="kdesc">Consolidated · as at 31 March 2026</div></div>
-      <div class="card"><div class="klabel">BAJAJ PCR · FY26</div><div class="kvalue">60%</div><div class="kdesc">Working series; definition needs verification</div></div>
+      <div class="card"><div class="klabel">BAJAJ PCR · FY26</div><div class="kvalue">—</div><div class="kdesc">Comparable company-defined figure not verified</div></div>
     </div>
     <div class="grid twocol">
       <div class="card"><div class="cardhead"><h3>Asset quality trajectory</h3><span class="hint">REPORTED RATIOS · %</span></div><div class="chartbox"><canvas id="overviewChart"></canvas></div></div>
@@ -136,7 +136,7 @@ tr:hover td{background:#f7f9fd}
       </div></div>
     </div>
     <div class="card" style="margin-top:14px"><div class="cardhead"><h3>Historical working data</h3><span class="hint">PERCENTAGE UNLESS SPECIFIED</span></div><div class="tablewrap"><table id="creditTable"></table></div>
-    <div class="callout">Bajaj Finance GNPA is shown for FY2018–FY2026: FY2018 1.41% (restated consolidated Ind AS basis), FY2019 1.54%, FY2020 1.61%, FY2021 1.79%, FY2022 1.60%, FY2023 0.94%, FY2024 0.85%, FY2025 0.96% and FY2026 1.01%. FY2017 is left blank because the reported figure uses an earlier standalone / prudential basis and is not directly comparable with the consolidated Ind AS series.</div></div>
+    <div class="callout">Bajaj Finance consolidated GNPA: FY18 1.41%, FY19 1.54%, FY20 1.61%, FY21 1.79%, FY22 1.60%, FY23 0.94%, FY24 0.85%, FY25 0.96%, FY26 1.01%. FY17 is blank because a directly comparable consolidated figure was not verified. Consolidated NNPA is populated from FY18 onward. PCR is shown only where company disclosures reviewed support a comparable figure; later years are blank rather than estimated.</div></div>
   </section>
 
 
@@ -144,7 +144,7 @@ tr:hover td{background:#f7f9fd}
   <section class="section" id="peers">
     <div class="eyebrow">02 / Relative performance</div>
     <h2 class="h1" style="font-size:27px">Peer Benchmarking</h2>
-    <p class="lede">Compact FY2025 scorecards with five-year GNPA trend charts. Bank and NBFC peers are assessed separately because their portfolios and reporting frameworks differ.</p>
+    <p class="lede">Compact FY2025 peer scorecards and five-year trends. Peer figures remain provisional until each peer's own annual report and metric definitions are reconciled; they are not part of the verified core series.</p>
 
     <div class="peerSectionTitle">A. ICICI Bank vs private-sector bank peers</div>
     <div class="card">
@@ -152,13 +152,13 @@ tr:hover td{background:#f7f9fd}
       <div class="tablewrap"><table class="peerTable">
         <thead><tr><th>Bank</th><th>GNPA %</th><th>NNPA %</th><th>PCR %</th><th>Slippage %</th><th>Credit cost %</th><th>Quick read</th></tr></thead>
         <tbody>
-          <tr><td><strong>ICICI Bank</strong></td><td>1.70</td><td>0.40</td><td>76.2</td><td>—</td><td>—</td><td>Strong long-run clean-up</td></tr>
+          <tr><td><strong>ICICI Bank</strong></td><td>1.67</td><td>0.39</td><td>76.2</td><td>—</td><td>—</td><td>Strong long-run clean-up</td></tr>
           <tr><td>HDFC Bank</td><td>1.33</td><td>0.43</td><td>67.86</td><td>1.30*</td><td>0.50*</td><td>Lowest GNPA</td></tr>
           <tr><td>Axis Bank</td><td>1.38</td><td>0.35</td><td>74.6</td><td>1.90</td><td>0.80</td><td>Low NNPA; higher cost</td></tr>
           <tr><td>Kotak Mahindra Bank</td><td>1.42</td><td>0.31</td><td>78.0</td><td>1.39</td><td>0.60</td><td>Lowest NNPA; highest PCR</td></tr>
         </tbody>
       </table></div>
-      <div class="smallnote">*HDFC slippage and credit-cost values are from the comparative analyst series; validate metric definitions against the bank's annual report. Dashes mean no comparable observation in this dataset.</div>
+      <div class="smallnote">Peer figures in this scorecard and peer trend charts have not yet been independently reconciled to each peer's own annual report. Treat them as provisional and do not use them as verified comparisons.</div>
     </div>
     <div class="card" style="margin-top:12px">
       <div class="cardhead"><h3>Gross NPA trend — FY2021 to FY2025</h3><span class="hint">LOWER IS BETTER · %</span></div>
@@ -215,7 +215,7 @@ tr:hover td{background:#f7f9fd}
       <div class="card"><div class="klabel">NIFTY BANK · BENCHMARK</div><div class="kvalue">3.52×</div><div class="kdesc">₹100 grew to approximately ₹352 by end-2025 · 13.4% CAGR</div></div>
     </div>
     <div class="peerCharts">
-      <div class="card"><div class="cardhead"><h3>10-year share-price trend</h3><span class="pill">₹ / share · year-end</span></div><div class="peerChart"><canvas id="stockPriceChart"></canvas></div><p class="smallnote">Annual closing prices, calendar year-end. ICICI Bank and Bajaj Finance are shown on the same rupee scale.</p></div>
+      <div class="card"><div class="cardhead"><h3>10-year share-price trend</h3><span class="pill">₹ / share · year-end</span></div><div class="peerChart"><canvas id="stockPriceChart"></canvas></div><p class="smallnote">Historical annual closing-price figures below have not yet been reconciled to exchange-sourced adjusted-price data. Treat the stock-price chart and returns as provisional, not verified.</p></div>
       <div class="card"><div class="cardhead"><h3>Growth of ₹100 invested</h3><span class="pill">2015 year-end = 100</span></div><div class="peerChart"><canvas id="stockGrowthChart"></canvas></div><p class="smallnote">Compounded calendar-year price returns. Nifty Bank is used as a common sector benchmark; this is price return, not total return.</p></div>
     </div>
     <div class="card" style="margin-top:14px"><div class="cardhead"><h3>Annual closing price and return</h3><span class="tag cyan">2016–2025</span></div><div class="tablewrap"><table><thead><tr><th>Year</th><th>ICICI close (₹)</th><th>ICICI return</th><th>Bajaj Finance close (₹)</th><th>Bajaj return</th><th>Nifty Bank return</th></tr></thead><tbody>
@@ -243,7 +243,7 @@ tr:hover td{background:#f7f9fd}
       <div class="card"><h3>Calculation conventions</h3><ul class="answer"><li>PCR = provisions held against NPAs ÷ GNPA × 100, subject to company definition.</li><li>Slippage ratio = fresh NPA additions ÷ standard advances × 100, using source definition.</li><li>Credit cost = credit impairment/provisions charged ÷ average loan book × 100, if this matches disclosed definition.</li><li>Annual return = ending adjusted price ÷ beginning adjusted price − 1.</li><li>Never replace missing observations with zero.</li></ul></div>
     </div>
     <div class="card" style="margin-top:14px"><h3>Primary sources to validate the dataset</h3><ul class="source-list"><li><a href="https://www.icici.bank.in/about-us/annual" target="_blank" rel="noopener">ICICI Bank — Annual Reports</a></li><li><a href="https://www.bajajfinserv.in/finance-investor-relations-digital-annual-report" target="_blank" rel="noopener">Bajaj Finance — Annual Reports & Investor Relations</a></li><li><a href="https://nsearchives.nseindia.com/corporate/BAJFINANCE_29042026163927_BSENSEOUTCOME.pdf" target="_blank" rel="noopener">Bajaj Finance — FY2026 results: GNPA 1.01% consolidated (31 March 2026)</a></li><li><a href="https://www.bajajfinserv.in/finance-digital-annual-report-fy23/index.html" target="_blank" rel="noopener">Bajaj Finance — FY2023 annual report: GNPA 0.94%</a></li><li><a href="https://www.rbi.org.in/" target="_blank" rel="noopener">Reserve Bank of India</a></li><li><a href="https://www.nseindia.com/companies-listing/corporate-filings-annual-reports" target="_blank" rel="noopener">NSE — Corporate Filings</a></li><li><a href="https://www.indiainfoline.com/company/icici-bank-ltd/management-discussions" target="_blank" rel="noopener">ICICI Bank — India Infoline historical research starting point</a></li><li><a href="https://www.indiainfoline.com/company/bajaj-finance-ltd/management-discussions" target="_blank" rel="noopener">Bajaj Finance — India Infoline historical research starting point</a></li></ul></div>
-    <div class="card" style="margin-top:14px"><h3>Current dataset gaps</h3><div class="tablewrap"><table><thead><tr><th>Missing item</th><th>Why it matters</th><th>Status</th></tr></thead><tbody><tr><td>Bajaj Finance GNPA series</td><td>Gross asset-quality comparison</td><td class="positive">FY2020–FY2026 populated; FY2017–FY2019 unavailable</td></tr><tr><td>Absolute NPA amounts FY17–22 for ICICI</td><td>Scale and movement analysis</td><td class="negative">Not supplied</td></tr><tr><td>Slippages and write-offs</td><td>Fresh stress and resolution dynamics</td><td class="negative">Not supplied</td></tr><tr><td>Comparable credit cost</td><td>Loss burden comparison</td><td class="negative">Not supplied</td></tr><tr><td>Peer-company data</td><td>Systematic vs idiosyncratic attribution</td><td class="negative">Not supplied</td></tr><tr><td>Daily/monthly adjusted share prices and event windows</td><td>Statistical event study and correlation</td><td class="negative">Annual trend added; high-frequency series still required</td></tr></tbody></table></div></div>
+    <div class="card" style="margin-top:14px"><h3>Current dataset gaps</h3><div class="tablewrap"><table><thead><tr><th>Missing item</th><th>Why it matters</th><th>Status</th></tr></thead><tbody><tr><td>Bajaj Finance GNPA series</td><td>Gross asset-quality comparison</td><td class="positive">FY2018–FY2026 populated; FY2017 unavailable</td></tr><tr><td>Absolute NPA amounts FY17–22 for ICICI</td><td>Scale and movement analysis</td><td class="negative">Not supplied</td></tr><tr><td>Slippages and write-offs</td><td>Fresh stress and resolution dynamics</td><td class="negative">Not supplied</td></tr><tr><td>Comparable credit cost</td><td>Loss burden comparison</td><td class="negative">Not supplied</td></tr><tr><td>Peer-company data</td><td>Systematic vs idiosyncratic attribution</td><td class="negative">Not supplied</td></tr><tr><td>Daily/monthly adjusted share prices and event windows</td><td>Statistical event study and correlation</td><td class="negative">Annual trend added; high-frequency series still required</td></tr></tbody></table></div></div>
   </section>
   <footer class="footer">FRA GROUP PROJECT 2 · CREDIT RISK INTELLIGENCE<br>Prepared as an interactive research prototype. The project requires peer comparison, risk attribution, market reaction analysis, explicit treatment of data breaks and a concise presentation. All provisional figures must be verified against original disclosures before academic submission.</footer>
 </main>
@@ -251,8 +251,8 @@ tr:hover td{background:#f7f9fd}
 <script>
 const years=['FY17','FY18','FY19','FY20','FY21','FY22','FY23','FY24','FY25','FY26'];
 const data={
- icici:{gnpa:[8.8,10.4,7.5,6.1,5.4,3.8,2.9,2.3,1.7,1.4],nnpa:[5.4,4.8,2.3,1.6,1.3,.8,.5,.5,.4,.33],pcr:[40,48,71,75.7,77.7,80.6,82.8,80.3,76.2,75.8]},
- bajaj:{gnpa:[null,1.41,1.54,1.61,1.79,1.60,.94,.85,.96,1.01],nnpa:[.44,.43,.63,.65,.75,.68,.34,.37,.44,.41],pcr:[74,70,60,60,58,58,64,57,54,60],loanloss:[1.6,1.5,1.6,3.1,4.1,2.8,1.5,1.6,2.2,2.3],roa:[3.7,3.7,4.2,4.1,3.1,4.2,5.3,5.1,4.6,4.3],roe:[21.6,20.1,22.5,20.2,12.8,17.4,23.5,22.1,19.2,18.1],crar:[20.3,24.7,20.7,25,28.3,27.2,25,22.5,21.9,21.6]}
+ icici:{gnpa:[null,null,null,5.53,4.96,3.60,2.81,2.16,1.67,1.40],nnpa:[4.89,4.77,2.06,1.41,1.14,.76,.48,.42,.39,.33],pcr:[53.6,60.5,80.7,76.0,77.7,79.2,82.8,80.3,76.2,75.8]},
+ bajaj:{gnpa:[null,1.41,1.54,1.61,1.79,1.60,.94,.85,.96,1.01],nnpa:[null,.43,.63,.65,.75,.68,.34,.37,.44,.41],pcr:[null,70,60,60,null,null,null,null,null,null],loanloss:[1.6,1.5,1.6,3.1,4.1,2.8,1.5,1.6,2.2,2.3],roa:[3.7,3.7,4.2,4.1,3.1,4.2,5.3,5.1,4.6,4.3],roe:[21.6,20.1,22.5,20.2,12.8,17.4,23.5,22.1,19.2,18.1],crar:[20.3,24.7,20.7,25,28.3,27.2,25,22.5,21.9,21.6]}
 };
 const fmt=(v)=>v===null||v===undefined?'—':Number(v).toFixed(2).replace(/\.00$/,'');
 let overviewChart,metricChart;
@@ -267,13 +267,13 @@ document.getElementById('metricSelect').addEventListener('change',updateMetric);
 const peerYears=['FY21','FY22','FY23','FY24','FY25'];
 const peerSeries={
  bank:{
-  gnpa:{'ICICI Bank':[5.4,3.8,2.9,2.3,1.7],'HDFC Bank':[1.32,1.17,1.12,1.24,1.33],'Axis Bank':[4.00,3.01,2.16,1.55,1.38],'Kotak Mahindra':[3.3,2.4,1.8,1.4,1.42]},
+  gnpa:{'ICICI Bank':[4.96,3.60,2.81,2.16,1.67],'HDFC Bank':[1.32,1.17,1.12,1.24,1.33],'Axis Bank':[4.00,3.01,2.16,1.55,1.38],'Kotak Mahindra':[3.3,2.4,1.8,1.4,1.42]},
   nnpa:{'ICICI Bank':[1.3,.8,.5,.5,.4],'HDFC Bank':[.40,.32,.27,.31,.43],'Axis Bank':[1.15,.79,.44,.34,.35],'Kotak Mahindra':[1.2,.6,.4,.3,.31]},
   pcr:{'ICICI Bank':[77.7,80.6,82.8,80.3,76.2],'HDFC Bank':[69.8,72.7,75.8,74.0,67.86],'Axis Bank':[72.1,74.3,80.0,78.5,74.6],'Kotak Mahindra':[63.6,73.2,79.3,75.9,78.0]},
   cost:{'ICICI Bank':[null,null,null,null,null],'HDFC Bank':[1.5,1.2,.8,1.2,.5],'Axis Bank':[1.8,.8,.4,.4,.8],'Kotak Mahindra':[.8,.4,.2,.4,.6]}
  },
  nbfc:{
-  gnpa:{'Bajaj Finance':[1.41,1.54,.94,.85,.96],'Cholamandalam':[4.0,6.8,4.6,3.5,4.0],'Shriram Finance':[6.9,6.9,6.2,5.5,4.6],'Mahindra Finance':[9.0,7.7,4.5,3.4,3.7]},
+  gnpa:{'Bajaj Finance':[1.79,1.60,.94,.85,.96],'Cholamandalam':[4.0,6.8,4.6,3.5,4.0],'Shriram Finance':[6.9,6.9,6.2,5.5,4.6],'Mahindra Finance':[9.0,7.7,4.5,3.4,3.7]},
   nnpa:{'Bajaj Finance':[.75,.68,.34,.37,.44],'Cholamandalam':[2.2,4.8,3.1,2.3,2.6],'Shriram Finance':[3.6,3.3,3.2,2.7,2.6],'Mahindra Finance':[4.0,3.4,1.9,1.3,1.8]},
   pcr:{'Bajaj Finance':[58,58,64,57,54],'Cholamandalam':[null,null,null,null,null],'Shriram Finance':[49.3,54.7,50.1,51.8,43.3],'Mahindra Finance':[null,null,null,null,51.2]},
   cost:{'Bajaj Finance':[4.1,2.8,1.5,1.6,2.2],'Cholamandalam':[null,null,null,null,null],'Shriram Finance':[2.6,2.7,2.2,2.0,2.2],'Mahindra Finance':[null,null,null,null,1.3]}
