@@ -26,11 +26,13 @@ const { chromium } = require('playwright');
     await page.waitForTimeout(300);
 
     await page.locator('[data-page="risk"]').click();
+    await page.waitForFunction(() => { const el=document.querySelector('#risk'); return el && getComputedStyle(el).display !== 'none' && el.innerText.includes('Systematic vs Idiosyncratic Risk'); });
     await page.locator('#eventFilter').selectOption('idiosyncratic');
     const visibleRiskEvents = await page.locator('.risk-group .event:visible').count();
     if (visibleRiskEvents < 3) throw new Error(`Expected idiosyncratic events, found ${visibleRiskEvents}`);
 
     await page.locator('[data-page="market"]').click();
+    await page.waitForFunction(() => { const el=document.querySelector('#market'); return el && getComputedStyle(el).display !== 'none' && el.innerText.includes('Market Reaction'); });
     await page.locator('#marketPeriod').selectOption('ilfs');
     if (await page.locator('#marketReactionCard').isVisible()) throw new Error('Market reaction snapshots should be hidden for IL&FS period');
     if (!(await page.locator('#marketEventsTable tr[data-period="ilfs"]').isVisible())) throw new Error('IL&FS event row did not filter correctly');
@@ -39,6 +41,8 @@ const { chromium } = require('playwright');
     if (!(await page.locator('#marketReactionCard').isVisible())) throw new Error('Regulatory market reaction snapshots should be visible');
     await page.waitForFunction(() => document.querySelectorAll('#marketReactionTable tbody tr').length === 3, { timeout: 15000 });
 
+    await page.locator('[data-page="conclusions"]').click();
+    await page.waitForFunction(() => { const el=document.querySelector('#conclusions'); return el && getComputedStyle(el).display !== 'none' && el.innerText.includes('Conclusions & Methodology'); });
     await page.locator('[data-page="overview"]').click();
     await page.locator('#presentationToggle').click();
     if (!(await page.locator('.app').evaluate(el => el.classList.contains('presenting')))) throw new Error('Presentation mode did not activate');
