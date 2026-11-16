@@ -26,7 +26,7 @@ Website: https://chet27g-hub.github.io/FRA-Credit-Risk-Analysis/
 | Event-window abnormal returns | Pending | Requires verified daily adjusted prices, event dates, estimation windows and suitable benchmarks. |
 | Correlation and regression | Pending | Requires aligned annual/monthly observations, sufficient sample size and diagnostics. |
 | Merger and data-break controls | Partial | Methodology notes included; detailed HDFC merger and Shriram restructuring series adjustments remain. |
-| CSV dataset | Partial | FY2026 peer snapshot with 40 rows, sources, units, basis and verification status; not yet the complete ten-year dataset. |
+| CSV dataset | Partial | FY2026 peer snapshot with 48 rows, sources, units, basis and verification status; not yet the complete ten-year dataset. |
 | Source register | Partial | FY2026 primary source register and definitions created; historical year-by-year source citations still needed. |
 | Fifteen-minute presentation script | Done as a draft | Script and 24 viva questions are in the companion presentation file. It explicitly avoids unsupported historical and market claims. |
 | Mobile / browser / interaction testing | Pending | Repository code structure checked; full browser QA has not been completed. |
