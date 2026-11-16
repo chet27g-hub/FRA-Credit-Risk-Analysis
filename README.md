@@ -48,3 +48,11 @@ Open `index.html` in a browser. For CSV-driven peer data, use a local static ser
 ## Automated browser QA
 
 A GitHub Actions workflow at `.github/workflows/dashboard-qa.yml` runs Playwright checks on every push to `main`. It verifies six-section navigation, CSV-driven peer tables and historical rows, metric switching, event filters, market-period filtering and presentation mode. The workflow uploads a full-page screenshot artifact when successful.
+
+
+## Latest verification
+
+- [Playwright browser QA — passed](https://github.com/chet27g-hub/FRA-Credit-Risk-Analysis/actions/runs/43869754052)
+- [GitHub Pages build and deployment — passed](https://github.com/chet27g-hub/FRA-Credit-Risk-Analysis/actions/runs/43869754207)
+
+Manual device-level mobile testing remains outstanding.
