@@ -142,3 +142,14 @@ The dashboard's three reported raw market-reaction snapshots are also stored in 
 ## Market reaction data file
 
 The dashboard's three reported raw market-reaction snapshots are also stored in [market_event_reaction_snapshots.csv](../data/market_event_reaction_snapshots.csv). Each row records the date, institution, event, reported move, move type, benchmark observation, limitation and source URL. These are secondary-source observations, not adjusted returns or abnormal returns.
+
+
+## Ten-year listed-share price history — 2016 to 2025
+
+The website's Market Reaction section now includes annual year-end adjusted closing prices for ICICI Bank and Bajaj Finance, plus a common-base indexed comparison (2016 = 100). Values are taken from the historical NSE price pages below; the provider describes the history as adjusted for splits and cash dividends. These are annual closing-price observations, not daily event-window data, and they do not constitute an abnormal-return study.
+
+- [ICICI Bank — NSE historical prices](https://datacedar.com/markets/nse/icicibank)
+- [Bajaj Finance — NSE historical prices](https://datacedar.com/markets/nse/bajfinance)
+- Repository data: `data/ten_year_stock_price_history.csv` (2016–2025, ten annual observations per company).
+
+The indexed comparison uses each company's 2016 adjusted close as its own base of 100. Do not compare the absolute ₹ levels between the two companies as if they were equal-sized investments; use the indexed chart for proportional price-path comparison. This annual series is descriptive and must not be used to infer causation around individual risk events.
