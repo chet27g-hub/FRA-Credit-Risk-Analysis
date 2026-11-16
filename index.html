@@ -78,38 +78,39 @@ tr:hover td{background:#f7f9fd}
   <div class="subbrand">FRA GROUP PROJECT 02 / INDIA</div>
   <div class="navlabel">RESEARCH TERMINAL</div>
   <nav class="nav">
-    <button class="active" data-page="overview"><span class="ico">◈</span> 1 · Framework & Peers</button>
-    <button data-page="credit"><span class="ico">▥</span> 2 · Credit Risk</button>
-    <button data-page="risk"><span class="ico">⌁</span> 3 · Risk Drivers</button>
-    <button data-page="market"><span class="ico">↗</span> 4 · Market Reaction</button>
-    <button data-page="method"><span class="ico">⌘</span> 5 · Methodology & Sources</button>
+    <button class="active" data-page="overview"><span class="ico">◈</span> 1 · Research Framework</button>
+    <button data-page="peers"><span class="ico">◎</span> 2 · Peer Benchmarking</button>
+    <button data-page="credit"><span class="ico">▥</span> 3 · Growth & Credit Risk</button>
+    <button data-page="risk"><span class="ico">⌁</span> 4 · Risk Attribution</button>
+    <button data-page="market"><span class="ico">↗</span> 5 · Stock Market Reaction</button>
+    <button data-page="conclusions"><span class="ico">✓</span> 6 · Conclusions & Methodology</button>
   </nav>
   <div class="sidefoot">ICICI BANK · BAJAJ FINANCE<br>FY2017 — FY2026<br><br>RESEARCH BUILD / 01.0</div>
 </aside>
 <main class="main">
   <header class="top">
-    <div><div class="eyebrow">Financial Risk Analytics / Credit Risk Study</div><div class="h1">Credit Risk Intelligence</div><div class="lede">ICICI Bank vs Bajaj Finance · Ten-year working series · FY2017–FY2026</div></div>
+    <div><div class="eyebrow">Financial Risk Analytics / Credit Risk Study</div><div class="h1">Credit Risk Intelligence</div><div class="lede">ICICI Bank vs Bajaj Finance · FY2017–FY2026 research horizon · FY2026 verified snapshot with historical data-quality controls</div></div>
   </header>
 
   <section class="section active" id="overview">
     <div class="twotags"><span class="tag cyan">PRIVATE BANK</span><span class="tag">ICICI BANK</span><span class="tag orange">LENDING NBFC</span><span class="tag">BAJAJ FINANCE</span></div>
     <div class="grid kpis">
-      <div class="card"><div class="klabel">ICICI GNPA · FY26</div><div class="kvalue">1.40%</div><div class="kdesc">Working series; source reconciliation pending</div></div>
-      <div class="card"><div class="klabel">ICICI NNPA · FY26</div><div class="kvalue">0.33%</div><div class="kdesc">Working series; source reconciliation pending</div></div>
-      <div class="card"><div class="klabel">BAJAJ GNPA · FY26</div><div class="kvalue">1.01%</div><div class="kdesc">Consolidated · as at 31 March 2026</div></div>
+      <div class="card"><div class="klabel">ICICI GNPA · FY26</div><div class="kvalue">1.44%</div><div class="kdesc">FY26 standalone · verified annual-report disclosure</div></div>
+      <div class="card"><div class="klabel">ICICI NNPA · FY26</div><div class="kvalue">0.35%</div><div class="kdesc">FY26 standalone · verified annual-report disclosure</div></div>
+      <div class="card"><div class="klabel">BAJAJ GNPA · FY26</div><div class="kvalue">1.27%</div><div class="kdesc">FY26 standalone · separate consolidated GNPA is 1.01%</div></div>
     </div>
     <div class="grid twocol">
       <div class="card"><div class="cardhead"><h3>Asset quality trajectory</h3><span class="hint">REPORTED RATIOS · %</span></div><div class="chartbox"><canvas id="overviewChart"></canvas></div></div>
       <div class="card"><div class="cardhead"><h3>Research question</h3><span class="pill">PROJECT THESIS</span></div>
         <p class="question">Was credit stress driven by the lender or the economy?</p>
-        <p class="answer">This study compares the asset-quality paths of a large private-sector bank and a lending NBFC, then asks whether stress was broad-based or institution-specific — and whether equity-market performance reflected that stress.</p>
-        <div class="callout"><strong>Current evidence boundary:</strong> the working dataset contains selected company ratios and annual share-price history; event-day abnormal returns and some peer metrics have separate source limitations. The dashboard therefore separates observed data from questions that still require evidence.</div>
+        <p class="answer">This study compares two distinct lending models. ICICI Bank is assessed against private-sector banks; Bajaj Finance is assessed against lending NBFCs. The analysis separates common macroeconomic shocks from portfolio, underwriting, governance and operational drivers, then examines what can defensibly be inferred from market data.</p>
+        <div class="callout"><strong>Current evidence boundary:</strong> FY26 snapshots are sourced to company disclosures. Historical peer metrics, slippages, write-offs, comparable credit-cost series and daily event-study returns remain incomplete. The dashboard does not present missing observations as zero or infer causation from annual co-movement.</div>
         <div class="smallnote">Study entities: ICICI Bank (private-sector bank) and Bajaj Finance (lending NBFC). Proposed peers are listed in Peer Benchmarking.</div>
       </div>
     </div>
     <div class="grid twocol" style="margin-top:14px">
       <div class="card"><div class="cardhead"><h3>What the current ratios suggest</h3><span class="hint">DESCRIPTIVE, NOT CAUSAL</span></div>
-        <ul class="answer"><li>ICICI Bank's working GNPA ratio peaks at 10.4% in FY2018 and declines to 1.4% by FY2026.</li><li>ICICI's working NNPA ratio declines from 5.4% in FY2017 to 0.33% in FY2026.</li><li>Bajaj Finance's working NNPA ratio rises to 0.75% in FY2021, then declines to 0.34% in FY2023 and is 0.41% in FY2026.</li><li>These patterns are consistent with improvement in the selected asset-quality ratios, but do not by themselves establish why the changes occurred.</li></ul>
+        <ul class="answer"><li>ICICI Bank's GNPA series includes FY20–FY26 working observations; FY17–FY19 are not populated in the current verified dataset. FY26 standalone GNPA is 1.44%.</li><li>ICICI's verified FY25–FY26 standalone NNPA declined from 0.42% to 0.35%; the earlier historical series requires source-to-cell reconciliation.</li><li>Bajaj's historical chart is a consolidated working series. FY26 standalone NNPA is 0.52%, while consolidated NNPA is 0.41%; do not join the standalone snapshot to the consolidated trend.</li><li>These patterns are consistent with improvement in the selected asset-quality ratios, but do not by themselves establish why the changes occurred.</li></ul>
       </div>
       <div class="card"><div class="cardhead"><h3>Project coverage</h3><span class="hint">ASSIGNMENT CHECKLIST</span></div>
         <div class="metricgrid grid">
@@ -123,7 +124,7 @@ tr:hover td{background:#f7f9fd}
   </section>
 
   <section class="section" id="credit">
-    <div class="cardhead"><div><div class="eyebrow">01 / Credit performance</div><h2 class="h1" style="font-size:27px">Asset Quality & Credit Risk</h2></div><select class="select" id="metricSelect"><option value="gnpa">GNPA (%)</option><option value="nnpa">NNPA (%)</option><option value="pcr">PCR (%)</option></select></div>
+    <div class="cardhead"><div><div class="eyebrow">03 / Growth and credit performance</div><h2 class="h1" style="font-size:27px">Asset Quality & Credit Risk</h2></div><select class="select" id="metricSelect"><option value="gnpa">GNPA (%)</option><option value="nnpa">NNPA (%)</option><option value="pcr">PCR (%)</option></select></div>
     <div class="grid twocol">
       <div class="card"><div class="cardhead"><h3 id="metricTitle">GNPA ratio</h3><span class="hint">FY17–FY26</span></div><div class="chartbox tall"><canvas id="metricChart"></canvas></div></div>
       <div class="card"><h3>How to interpret these measures</h3><div class="metricgrid grid" style="margin-top:14px">
@@ -140,20 +141,20 @@ tr:hover td{background:#f7f9fd}
 
 
   <section class="section" id="peers">
-    <div class="eyebrow">01 / Research framework and peer selection</div>
+    <div class="eyebrow">02 / Peer benchmarking</div>
     <h2 class="h1" style="font-size:27px">Peer Benchmarking</h2>
-    <p class="lede">Compact FY2025 peer scorecards and five-year trends. Peer figures remain provisional until each peer's own annual report and metric definitions are reconciled; they are not part of the verified core series.</p>
+    <p class="lede">FY2026 peer snapshot sourced from company disclosures. Banks and NBFCs are benchmarked separately. NBFC regulatory GNPA/NNPA and Ind AS Stage 3 measures remain distinct.</p>
 
-    <div class="peerSectionTitle">A. ICICI Bank vs private-sector bank peers</div>
+    <div class="peerSectionTitle">A. ICICI Bank vs private-sector bank peers — FY2026 standalone</div>
     <div class="card">
-      <div class="cardhead"><h3>FY2025 credit-risk scorecard</h3><span class="tag cyan">BANKS</span></div>
+      <div class="cardhead"><h3>FY2026 asset-quality scorecard</h3><span class="tag cyan">BANKS · STANDALONE</span></div>
       <div class="tablewrap"><table class="peerTable">
-        <thead><tr><th>Bank</th><th>GNPA %</th><th>NNPA %</th><th>PCR %</th><th>Gross slippage %</th><th>Credit cost % — gross / net where applicable</th><th>Quick read</th></tr></thead>
+        <thead><tr><th>Bank</th><th>GNPA %</th><th>NNPA %</th><th>PCR %</th><th>Gross advances (₹ crore)</th><th>Basis</th></tr></thead>
         <tbody>
-          <tr><td><strong><a href="https://www.icici.bank.in/about-us/article/performance-review-quarter-ended-march-31-2025" target="_blank" rel="noopener">ICICI Bank</a></strong></td><td>1.67</td><td>0.39</td><td>76.2</td><td>1.80</td><td>0.69</td><td>Full-year provisioning cost</td></tr>
-          <tr><td><a href="https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/annual-reports/2024-25/HDFC_Bank_Annual_Report_2024_25-310202.pdf" target="_blank" rel="noopener">HDFC Bank</a></td><td>1.33</td><td>0.43</td><td>67.86</td><td>1.20</td><td>0.57</td><td>Full-year provisioning cost</td></tr>
-          <tr><td><a href="https://www.axis.bank.in/docs/default-source/annual-reports/for-axis-bank/annual-report-for-the-year-2024-2025.pdf" target="_blank" rel="noopener">Axis Bank</a></td><td>1.28</td><td>0.33</td><td>75.0</td><td>2.00</td><td>1.04 / 0.69</td><td>Full-year gross / net credit cost</td></tr>
-          <tr><td><a href="https://www.kotak.bank.in/content/dam/Kotak/investor-relation/Financial-Result/QuarterlyReport/FY-2025/q4/investor-presentation/Q4FY25_Investor_Presentation.pdf" target="_blank" rel="noopener">Kotak Mahindra Bank</a></td><td>1.42</td><td>0.31</td><td>78.0</td><td>1.49</td><td>0.76</td><td>Full-year provisioning cost</td></tr>
+          <tr><td><strong><a href="https://www.icici.bank.in/content/dam/icicibank/managed-assets/docs/investor/annual-reports/2026/icici-bank-2026-financial-statements.pdf" target="_blank" rel="noopener">ICICI Bank</a></strong></td><td>1.44</td><td>0.35</td><td>75.8</td><td>15,53,893</td><td>Standalone</td></tr>
+          <tr><td><a href="https://www.hdfc.bank.in/telugu/content/dam/hdfcbankpws/in/en/pdf/annual-reports/2025-26/reports/HDFC_Bank_IR26.pdf" target="_blank" rel="noopener">HDFC Bank</a></td><td>1.15</td><td>0.38</td><td>67.2</td><td>29,37,166</td><td>Standalone</td></tr>
+          <tr><td><a href="https://www.axis.bank.in/annual-reports/2025-2026/index.html" target="_blank" rel="noopener">Axis Bank</a></td><td>1.23</td><td>0.37</td><td>70.0</td><td>12,33,570</td><td>Standalone</td></tr>
+          <tr><td><a href="https://www.kotak.bank.in/content/dam/Kotak/investor-relation/governance/governance-sebi-tab/2026/fy26-audited-financial-results-earnings-call/investor-presentation-0205-2026signed.pdf" target="_blank" rel="noopener">Kotak Mahindra Bank</a></td><td>1.20</td><td>0.25</td><td>79.0</td><td>—</td><td>Standalone</td></tr>
         </tbody>
       </table></div>
       <div class="smallnote">Source: FY25 company disclosures and analyst-reported comparative data. GNPA, NNPA and PCR are closing ratios at 31 March 2025. Full-year FY25 gross slippage ratios: ICICI 1.80% (Motilal Oswal FY25 results review); HDFC Bank 1.20% (Motilal Oswal FY25 results review); Axis Bank 2.00% (LKP FY25 result update; Axis separately reports Q4 annualised gross slippage of 1.90%); Kotak Mahindra Bank 1.49% (FY25 key ratios in its annual-report management discussion). Credit cost is now shown on a full-FY25 basis, not a single-quarter annualised basis: ICICI 0.69%, HDFC Bank 0.57%, Axis Bank 1.04% gross / 0.69% net, and Kotak Mahindra Bank 0.76%. The ICICI, HDFC and Kotak figures are from a comparative FY25 study using loan-loss provisions relative to average advances; Axis's official FY25 investor presentation explicitly reports both gross and net credit cost. Gross and net provisioning conventions differ, so Axis is shown as a pair and the figures should be interpreted with the banks' stated definitions. These are FY25 full-year reported ratios, not Q4 annualised ratios. Source calculation conventions and denominators can differ, so use as indicative peer comparison rather than a perfectly standardised regulatory metric. Do not rank these last two columns as strictly like-for-like. Primary links: <a href="https://www.axis.bank.in/docs/default-source/annual-reports/for-axis-bank/annual-report-for-the-year-2024-2025.pdf" target="_blank" rel="noopener">Axis FY25 annual report</a> · <a href="https://www.kotak.bank.in/content/dam/Kotak/investor-relation/Financial-Result/QuarterlyReport/FY-2025/q4/investor-presentation/Q4FY25_Investor_Presentation.pdf" target="_blank" rel="noopener">Kotak FY25 investor presentation</a> · <a href="https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/financial-results/2024-2025/quarter-4/q4fy25-earnings-presentation.pdf" target="_blank" rel="noopener">HDFC Q4 FY25 presentation</a> · <a href="https://www.icici.bank.in/about-us/article/performance-review-quarter-ended-march-31-2025" target="_blank" rel="noopener">ICICI FY25 performance review</a>.</div>
@@ -164,16 +165,16 @@ tr:hover td{background:#f7f9fd}
     </div>
     <div class="peerInsight"><strong>Interpretation:</strong> HDFC had the lowest FY25 GNPA (1.33%), while Kotak had the lowest NNPA (0.31%) and highest PCR (78%). ICICI's GNPA fell from 5.4% in FY21 to 1.7% in FY25, indicating a substantial improvement, although it remained above all three peers on FY25 GNPA. No single bank leads every measure.</div>
 
-    <div class="peerSectionTitle">B. Bajaj Finance vs lending-NBFC peers</div>
+    <div class="peerSectionTitle">B. Bajaj Finance vs lending-NBFC peers — FY2026</div>
     <div class="card">
-      <div class="cardhead"><h3>FY2025 credit-risk scorecard</h3><span class="tag orange">NBFCs</span></div>
+      <div class="cardhead"><h3>FY2026 asset-quality scorecard</h3><span class="tag orange">NBFCs · STANDALONE</span></div>
       <div class="tablewrap"><table class="peerTable">
-        <thead><tr><th>NBFC</th><th>GNPA / GS3 %</th><th>NNPA / NS3 %</th><th>PCR %</th><th>Credit cost %</th><th>Capital adequacy %</th><th>Quick read</th></tr></thead>
+        <thead><tr><th>NBFC</th><th>GNPA / Gross Stage 3 %</th><th>NNPA / Net Stage 3 %</th><th>Coverage %</th><th>Scale (₹ crore)</th><th>Basis / metric definition</th></tr></thead>
         <tbody>
-          <tr><td><strong>Bajaj Finance</strong></td><td>0.96</td><td>0.44</td><td>54*</td><td>2.2**</td><td>21.9</td><td>Lowest reported NPA</td></tr>
-          <tr><td>Cholamandalam</td><td>4.0 / 2.8</td><td>2.6 / 1.6</td><td>—</td><td>—</td><td>19.8</td><td>Vehicle-finance exposure</td></tr>
-          <tr><td>Shriram Finance</td><td>4.6</td><td>2.6</td><td>43.3</td><td>2.2</td><td>20.7</td><td>Improving GNPA trend</td></tr>
-          <tr><td>Mahindra Finance</td><td>3.7 (GS3)</td><td>1.8 (NS3)</td><td>51.2 (GS3)</td><td>1.3</td><td>—</td><td>GS3 improved materially</td></tr>
+          <tr><td><strong><a href="https://nsearchives.nseindia.com/corporate/BAJFINANCE_29042026163927_BSENSEOUTCOME.pdf" target="_blank" rel="noopener">Bajaj Finance</a></strong></td><td>1.27</td><td>0.52</td><td>60.0</td><td>3,72,986</td><td>Standalone RBI NPA / Stage 3 PCR</td></tr>
+          <tr><td><a href="https://files.cholamandalam.com/Investor_Presentation_Mar2026_6088750f9e.pdf" target="_blank" rel="noopener">Cholamandalam</a></td><td>4.36 RBI GNPA / 3.05 Ind AS GS3</td><td>2.87 RBI NNPA / 1.61 Ind AS NS3</td><td>47.29 (Stage 3)</td><td>2,42,630</td><td>Standalone; both definitions disclosed</td></tr>
+          <tr><td><a href="https://cdn.shriramfinance.in/sfl-kalam/files/2026-04/SFL_Quarterly-Results-Standalone-March-2026.pdf" target="_blank" rel="noopener">Shriram Finance</a></td><td>4.58 (Stage 3-based GNPA)</td><td>2.33 (Stage 3-based NNPA)</td><td>50.34</td><td>2,82,452</td><td>Standalone; filing definitions apply</td></tr>
+          <tr><td><a href="https://www.mahindra.com/news-room/press-release/en/financial-results-quarter-4-and-full-year-fy26-standalone-and-consolidated-results" target="_blank" rel="noopener">Mahindra Finance</a></td><td>3.40 (Gross Stage 3)</td><td>—</td><td>—</td><td>1,34,096</td><td>Standalone; Stage 3 not relabeled GNPA</td></tr>
         </tbody>
       </table></div>
       <div class="smallnote">**Bajaj loan-loss/AUF proxy, not guaranteed to match peers' credit-cost denominator. Chola reports regulatory GNPA and Ind AS Stage 3 separately. Mahindra figures shown are Stage 3 measures. Do not compare GNPA and Stage 3 as identical.</div>
@@ -182,9 +183,9 @@ tr:hover td{background:#f7f9fd}
       <div class="cardhead"><h3>Gross NPA / Gross Stage 3 trend — FY2021 to FY2025</h3><span class="hint">LOWER IS BETTER · %</span></div>
       <div class="peerChart"><canvas id="nbfcGnpaChart"></canvas></div>
     </div>
-    <div class="peerInsight"><strong>Interpretation:</strong> Bajaj Finance's reported FY25 GNPA/NNPA (0.96%/0.44%) were materially below the displayed impaired-asset ratios of its vehicle/rural-focused NBFC peers. Shriram Finance's GNPA declined from 6.9% in FY21 to 4.6% in FY25, and Mahindra Finance's Gross Stage 3 declined from 9.0% to 3.7%. The difference in lending mix and GNPA-versus-Stage-3 definitions means this is a directional peer comparison, not a perfectly like-for-like risk ranking.</div>
+    <div class="peerInsight"><strong>Interpretation:</strong> Bajaj Finance standalone reports GNPA 1.27%, NNPA 0.52% and Stage 3 coverage 60%. Chola, Shriram and Mahindra report higher impaired-asset ratios on the metrics shown, but Chola and Mahindra explicitly use separate Ind AS Stage 3 measures. The snapshot is descriptive; lending mix, definitions and coverage methodologies prevent a universal risk ranking.</div>
 
-    <div class="peerCaveat"><strong>How to read the comparison:</strong> FY2025 is the common snapshot; charts show FY2021–FY2025. Banks use GNPA/NNPA under RBI asset-classification rules. NBFCs may disclose both GNPA and Ind AS Stage 3. PCR and credit-cost definitions/denominators can vary. Slippages and write-offs are not populated where a comparable peer figure was not available; missing data is not zero.</div>
+    <div class="peerCaveat"><strong>How to read the comparison:</strong> The tables show FY2026 standalone disclosures. Bank NPA ratios follow RBI bank asset-classification rules. NBFCs may disclose RBI GNPA/NNPA and Ind AS Stage 3 separately; never compare them as identical. Credit-cost denominators also differ. Historical peer charts remain provisional until every year is reconciled to original annual reports.</div>
     <div class="card" style="margin-top:12px"><h3>Sources</h3><ul class="source-list">
       <li><a href="https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/annual-reports/2024-25/HDFC_Bank_Annual_Report_2024_25-310202.pdf" target="_blank" rel="noopener">HDFC Bank — Annual Report FY2024–25</a></li>
       <li><a href="https://images.moneycontrol.com/static-mcnews/2025/04/20250425164806_Axis-Bank-25042025-moti.pdf" target="_blank" rel="noopener">Axis Bank — FY21–FY25 historical series</a></li>
@@ -196,7 +197,7 @@ tr:hover td{background:#f7f9fd}
     </ul></div>
   </section>
   <section class="section" id="risk">
-    <div class="eyebrow">03 / Risk attribution</div><h2 class="h1" style="font-size:27px">Systematic vs Idiosyncratic Risk</h2>
+    <div class="eyebrow">04 / Systematic and idiosyncratic risk</div><h2 class="h1" style="font-size:27px">Systematic vs Idiosyncratic Risk</h2>
     <div class="grid twocol">
       <div class="card"><h3>Systematic / sector-wide drivers</h3><p class="smallnote">Regulatory and macro shocks affecting multiple lenders. These are potential transmission channels, not proof that a specific NPA movement was caused by the event.</p>
       <div class="event"><div class="year">27 Mar 2020</div><div><h4>RBI COVID-19 regulatory package — loan moratorium</h4><p>RBI permitted a three-month moratorium on instalments due 1 March–31 May 2020 for term loans, including retail loans and NBFC lending. It altered repayment schedules and complicates delinquency comparisons. <a href="https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11835&Mode=0" target="_blank" rel="noopener">RBI circular</a></p></div></div>
@@ -222,16 +223,12 @@ tr:hover td{background:#f7f9fd}
   </section>
 
   <section class="section" id="market">
-    <div class="eyebrow">04 / Equity-market response</div><h2 class="h1" style="font-size:27px">Stock Market Reaction</h2>
-    <p class="lede">10 complete calendar years of adjusted market performance (2016–2025), with Nifty Bank as the banking-sector benchmark. Stock histories are adjusted for splits and cash dividends; the Nifty Bank series is a price-index benchmark, so the comparison is directional rather than a perfectly matched total-return comparison.</p>
-    <div class="grid threecol" style="margin:18px 0">
-      <div class="card"><div class="klabel">ICICI BANK · NSE</div><div class="kvalue">6.06×</div><div class="kdesc">₹100 grew to approximately ₹606 by end-2025 · 19.7% CAGR</div></div>
-      <div class="card"><div class="klabel">BAJAJ FINANCE · NSE</div><div class="kvalue">16.96×</div><div class="kdesc">₹100 grew to approximately ₹1,696 by end-2025 · 32.7% CAGR</div></div>
-      <div class="card"><div class="klabel">NIFTY BANK · BENCHMARK</div><div class="kvalue">3.52×</div><div class="kdesc">₹100 grew to approximately ₹352 by end-2025 · 13.4% CAGR</div></div>
-    </div>
+    <div class="eyebrow">05 / Equity-market response</div><h2 class="h1" style="font-size:27px">Stock Market Reaction</h2>
+    <p class="lede">Working year-end share-price observations for 2016–2025. The source-to-cell audit, corporate-action adjustments, dividend treatment and benchmark alignment are incomplete. The series is not certified as adjusted-price or total-return performance; use it as an exploratory working series only.</p>
+    <div class="callout warning"><strong>Market-data status:</strong> CAGR, volatility, maximum drawdown and abnormal-return statistics are withheld until the daily adjusted-price series, corporate actions, dividends and benchmark observations are reconciled. The historical close series below is not a verified investment-return dataset.</div>
     <div class="peerCharts">
-      <div class="card"><div class="cardhead"><h3>10-year share-price trend</h3><span class="pill">₹ / share · year-end</span></div><div class="peerChart"><canvas id="stockPriceChart"></canvas></div><p class="smallnote">Year-end closes and annual price returns use a consistent NSE-history dataset adjusted for corporate actions. Dividends are excluded; these are price returns, not total returns.</p></div>
-      <div class="card"><div class="cardhead"><h3>Growth of ₹100 invested</h3><span class="pill">2015 year-end = 100</span></div><div class="peerChart"><canvas id="stockGrowthChart"></canvas></div><p class="smallnote">Compounded calendar-year price returns. Nifty Bank is used as a common sector benchmark; this is price return, not total return.</p></div>
+      <div class="card"><div class="cardhead"><h3>10-year share-price trend</h3><span class="pill">₹ / share · year-end</span></div><div class="peerChart"><canvas id="stockPriceChart"></canvas></div><p class="smallnote">Working year-end close observations; source and corporate-action reconciliation is pending. These are not certified adjusted prices.</p></div>
+      <div class="card"><div class="cardhead"><h3>Growth of ₹100 invested</h3><span class="pill">2015 year-end = 100</span></div><div class="peerChart"><canvas id="stockGrowthChart"></canvas></div><p class="smallnote">Normalized working close observations, rebased to 100 at the first displayed observation. Benchmark comparison is withheld pending validation.</p></div>
     </div>
     <div class="card" style="margin-top:14px"><div class="cardhead"><h3>Annual closing price and return</h3><span class="tag cyan">2016–2025</span></div><div class="tablewrap"><table><thead><tr><th>Year</th><th>ICICI close (₹)</th><th>ICICI return</th><th>Bajaj Finance close (₹)</th><th>Bajaj return</th><th>Nifty Bank return</th></tr></thead><tbody>
       <tr><td>2016</td><td>219.34</td><td class="negative">−0.3%</td><td>81.31</td><td class="positive">+40.6%</td><td class="positive">+7.42%</td></tr>
@@ -264,9 +261,22 @@ tr:hover td{background:#f7f9fd}
     <div class="card" style="margin-top:14px"><h3>Sources and calculation</h3><ul class="source-list"><li><a href="https://datacedar.com/markets/nse/icicibank" target="_blank" rel="noopener">ICICI Bank — NSE historical adjusted closes and annual returns</a></li><li><a href="https://datacedar.com/markets/nse/bajfinance" target="_blank" rel="noopener">Bajaj Finance — NSE historical adjusted closes and annual returns</a></li><li><a href="https://www.profitguruonline.com/indices/nifty-bank" target="_blank" rel="noopener">Nifty Bank — calendar-year returns</a></li><li><a href="https://www.niftyindices.com/reports/historical-data" target="_blank" rel="noopener">NSE Indices — official historical index data portal</a></li></ul><p class="smallnote">Growth index is calculated by compounding annual adjusted-stock returns from a base of ₹100 at end-2015. CAGR = (end value ÷ 100)^(1/10) − 1. Stock annual history is adjusted for splits and cash dividends; Nifty Bank annual price returns are sourced separately.</p></div>
   </section>
 
+  <section class="section" id="conclusions">
+    <div class="eyebrow">06 / Research answers</div>
+    <h2 class="h1" style="font-size:27px">What the evidence supports</h2>
+    <p class="lede">The conclusions below are deliberately limited to sourced observations. Historical causal claims and market-event findings remain open until the full time series and daily prices are validated.</p>
+    <div class="grid twocol">
+      <div class="card"><div class="klabel">ANSWER 01 · CREDIT RISK</div><h3 style="margin:8px 0">Different paths, different accounting contexts</h3><p class="answer">ICICI Bank standalone GNPA improved from 1.73% in FY25 to 1.44% in FY26; NNPA improved from 0.42% to 0.35%, while PCR eased from 76.2% to 75.8%. Bajaj Finance standalone GNPA moved up from 1.18% to 1.27%, while NNPA improved from 0.56% to 0.52%; Stage 3 PCR was 60% in FY26. These observations do not alone identify the causes.</p></div>
+      <div class="card"><div class="klabel">ANSWER 02 · RISK DRIVERS</div><h3 style="margin:8px 0">Common shocks meet different exposures</h3><p class="answer">COVID-19 was a broad economy-wide shock. IL&FS originated as institution-specific stress and transmitted liquidity pressure across parts of the NBFC sector. The severity of credit outcomes depends on borrower mix, underwriting, collections, funding and management response. The current dataset does not yet quantify each channel's causal contribution.</p></div>
+      <div class="card"><div class="klabel">ANSWER 03 · MARKET REACTION</div><h3 style="margin:8px 0">Annual price series are not an event study</h3><p class="answer">The current annual close series is exploratory and lacks a complete verified daily adjusted-price history, corporate-action audit and benchmark alignment. Therefore no abnormal-return, statistical-significance or credit-risk/return correlation claim is made here. Event-window analysis remains a required next research step.</p></div>
+      <div class="card"><div class="klabel">CROSS-INSTITUTION INSIGHT</div><h3 style="margin:8px 0">Do not declare a universal winner</h3><p class="answer">A deposit-funded bank and a diversified lending NBFC have different funding models, regulatory metrics, borrower mixes and accounting disclosures. Credit-risk analysis must combine asset quality, growth, slippages, provisions, write-offs, credit cost and profitability, with a clear reporting basis for every number.</p></div>
+    </div>
+    <div class="card" style="margin-top:14px"><h3>Data quality and remaining research work</h3><ul class="answer"><li>Extract and verify FY2017–FY2026 GNPA, NNPA, PCR, slippages, recoveries, upgrades, write-offs and credit cost from all eight institutions' annual reports.</li><li>Reconcile standalone and consolidated reporting and preserve RBI NPA versus Ind AS Stage 3 definitions.</li><li>Build a complete source-to-cell register with report page, unit, denominator and calculation for every historical observation.</li><li>Download adjusted daily market data and benchmark series, then calculate event-window returns, abnormal returns, volatility, drawdown and statistically defensible correlations.</li><li>Document HDFC–HDFC Ltd merger, Shriram group restructuring, regulatory definition changes, stock splits and corporate actions.</li></ul></div>
+  </section>
+
   <section class="section" id="method">
-    <div class="eyebrow">06 / Data integrity</div><h2 class="h1" style="font-size:27px">Methodology & Sources</h2>
-    <div class="callout"><strong>Data integrity statement:</strong> This site uses the working series consolidated in the supplied Markdown file. The file itself warns that the figures are not a fully audited or complete 10-year database and that some values have not been independently reconciled to annual reports. Treat the displayed figures as provisional until verified.</div>
+    <div class="eyebrow">06 / Research answers and methodology</div><h2 class="h1" style="font-size:27px">Conclusions & Methodology</h2>
+    <div class="callout warning"><strong>Data integrity statement:</strong> FY2026 peer snapshots in the source register are linked to primary company disclosures and identify reporting basis. The FY2017–FY2025 historical peer series, selected legacy asset-quality observations and market-price history are not yet fully audited source-to-cell. Their charts are explicitly provisional. No missing values are imputed as zero.</div>
     <div class="grid twocol">
       <div class="card"><h3>Data-break controls</h3><ul class="answer"><li>Separate standalone and consolidated reporting.</li><li>Record Ind AS / previous accounting-basis transitions.</li><li>Check NPA recognition and provisioning definition changes.</li><li>Document mergers, acquisitions and portfolio transfers.</li><li>Distinguish gross versus net write-offs and recoveries.</li><li>Record changes in advances, AUM or average loan-book definitions.</li></ul></div>
       <div class="card"><h3>Calculation conventions</h3><ul class="answer"><li>PCR = provisions held against NPAs ÷ GNPA × 100, subject to company definition.</li><li>Slippage ratio = fresh NPA additions ÷ standard advances × 100, using source definition.</li><li>Credit cost = credit impairment/provisions charged ÷ average loan book × 100, if this matches disclosed definition.</li><li>Annual return = ending adjusted price ÷ beginning adjusted price − 1.</li><li>Never replace missing observations with zero.</li></ul></div>
@@ -280,7 +290,7 @@ tr:hover td{background:#f7f9fd}
 <script>
 const years=['FY17','FY18','FY19','FY20','FY21','FY22','FY23','FY24','FY25','FY26'];
 const data={
- icici:{gnpa:[null,null,null,5.53,4.96,3.60,2.81,2.16,1.67,1.40],nnpa:[null,null,null,1.41,1.14,.76,.48,.42,.39,.33],pcr:[null,null,null,75.7,77.7,79.2,82.8,80.3,76.2,75.8]},
+ icici:{gnpa:[null,null,null,5.53,4.96,3.60,2.81,2.16,1.73,1.44],nnpa:[null,null,null,1.41,1.14,.76,.48,.42,.42,.35],pcr:[null,null,null,75.7,77.7,79.2,82.8,80.3,76.2,75.8]},
  bajaj:{gnpa:[null,1.41,1.54,1.61,1.79,1.60,.94,.85,.96,1.01],nnpa:[null,.43,.63,.65,.75,.68,.34,.37,.44,.41],pcr:[null,70,60,60,58,58,64,57,54,60],loanloss:[1.6,1.5,1.6,3.1,4.1,2.8,1.5,1.6,2.2,2.3],roa:[3.7,3.7,4.2,4.1,3.1,4.2,5.3,5.1,4.6,4.3],roe:[21.6,20.1,22.5,20.2,12.8,17.4,23.5,22.1,19.2,18.1],crar:[20.3,24.7,20.7,25,28.3,27.2,25,22.5,21.9,21.6]}
 };
 const fmt=(v)=>v===null||v===undefined?'—':Number(v).toFixed(2).replace(/\.00$/,'');
@@ -289,7 +299,7 @@ function makeChart(ctx,sets){return new Chart(ctx,{type:'line',data:{labels:year
 function series(label,values,color){return {label,data:values,borderColor:color,backgroundColor:color,pointRadius:3,pointHoverRadius:5,borderWidth:2,tension:.28,spanGaps:false};}
 function fillCreditTable(){let t=document.getElementById('creditTable');t.innerHTML='<thead><tr><th>Financial year</th><th>ICICI GNPA %</th><th>ICICI NNPA %</th><th>ICICI PCR %</th><th>Bajaj GNPA %</th><th>Bajaj NNPA %</th><th>Bajaj PCR %</th></tr></thead><tbody>'+years.map((y,i)=>`<tr><td>${y}</td><td>${fmt(data.icici.gnpa[i])}</td><td>${fmt(data.icici.nnpa[i])}</td><td>${fmt(data.icici.pcr[i])}</td><td>${fmt(data.bajaj.gnpa[i])}</td><td>${fmt(data.bajaj.nnpa[i])}</td><td>${fmt(data.bajaj.pcr[i])}</td></tr>`).join('')+'</tbody>';}
 function updateMetric(){const key=document.getElementById('metricSelect').value;const names={gnpa:'Gross NPA ratio',nnpa:'Net NPA ratio',pcr:'Provision Coverage Ratio'};document.getElementById('metricTitle').textContent=names[key];if(metricChart)metricChart.destroy();metricChart=makeChart(document.getElementById('metricChart'),[series('ICICI Bank',data.icici[key],'#53d6d0'),series('Bajaj Finance',data.bajaj[key]||Array(10).fill(null),'#ffb86b')]);}
-function activate(page){document.querySelectorAll('.section').forEach(s=>s.classList.toggle('active',s.id===page||(page==='overview'&&s.id==='peers')));document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.page===page));window.scrollTo({top:0,behavior:'smooth'});if(page==='credit')updateMetric();if(page==='overview'){setTimeout(()=>Chart.instances.forEach(c=>c.resize()),80);}}
+function activate(page){document.querySelectorAll('.section').forEach(s=>s.classList.toggle('active',s.id===page));document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.page===page));window.scrollTo({top:0,behavior:'smooth'});if(page==='credit')updateMetric();setTimeout(()=>Chart.instances.forEach(c=>c.resize()),80);}
 document.querySelectorAll('.nav button').forEach(b=>b.addEventListener('click',()=>activate(b.dataset.page)));
 document.getElementById('metricSelect').addEventListener('change',updateMetric);
 
