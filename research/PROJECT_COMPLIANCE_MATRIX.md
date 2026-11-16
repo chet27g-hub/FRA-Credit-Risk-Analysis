@@ -91,3 +91,16 @@ Three secondary-source short-term market-reaction snapshots have been added to P
 ## ICICI ten-year asset-quality series status
 
 The historical CSV now contains ICICI standalone GNPA, NNPA and PCR observations for FY2017–FY2026 with source links and per-row verification notes. FY2017–FY2018 use ICRA / annual-report historical disclosures; FY2019–FY2026 use company performance reviews and standalone financial statements. Denominator and PCR write-off definitions differ across periods and are documented; the chart is directional rather than a perfectly standardized series. FY2020–FY2024 still need page-level extraction and denominator cross-check. Bajaj FY2018–FY2025 consolidated observations remain provisional; FY2025–FY2026 standalone observations are separately sourced.
+
+
+## Original assignment and final research coverage update
+
+The original assignment PDF and uploaded detailed execution notes have been reviewed. The final website uses six sections as requested in the execution brief.
+
+- ICICI Bank standalone GNPA/NNPA/PCR series: FY2017–FY2026 source-linked; denominator and PCR write-off definitions vary and are disclosed. FY2020–FY2024 page-level source/denominator reconciliation remains a QA task.
+- ICICI NPA stock movement: FY2025, FY2026 and Q2 FY2027 bridges include additions, recoveries/upgrades/others, write-offs and sales, and reconcile exactly.
+- Bajaj Finance: FY2025 consolidated AUM and loan-loss provisions added (+26% AUM; +72% provisions); FY2025–FY2026 standalone ratios and AUM sourced; FY2018–FY2025 consolidated ratio history remains provisional.
+- Risk analysis: banking NPA recognition cycle, IL&FS liquidity contagion, COVID, monetary tightening, Videocon governance controversy, Bajaj digital-lending restrictions, FY2025 provisions and 2025 leadership changes included. Interactive event-type filters added.
+- Market analysis: period selector added for Banking NPA Stress, IL&FS, COVID-19, Monetary Tightening and Regulatory Developments. Three unadjusted market-reaction snapshots are sourced; daily adjusted-price event study and correlation remain incomplete.
+- Website UX: single light CSS system, responsive layout, section progress, previous/next controls, keyboard navigation and full-screen presentation mode added.
+- Original brief reconciliation: done. Live browser QA and latest GitHub Pages publication verification remain pending until the latest workflow completes.
