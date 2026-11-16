@@ -40,12 +40,12 @@ Research cut-off: 16 November 2026. Period: FY2026 annual observations (31 March
 
 ## Known gaps
 
-1. The full FY2017–FY2026 historical series for all eight institutions has not yet been extracted and reconciled from each annual report.
+1. The full ICICI standalone GNPA/NNPA/PCR is now source-linked across FY2017–FY2026, but denominator and PCR write-off conventions vary and FY2020–FY2024 still need page-level extraction checks. Historical series for the other seven peer institutions has not yet been extracted and reconciled from each annual report.
 2. Historical slippage, write-off and credit-cost series remain incomplete.
 3. FY2026 peer snapshot is not a substitute for ten-year peer trends.
 4. HDFC NNPA and some peer historical figures need a page-level audit trail before use in a fully automated chart.
 5. Historical adjusted daily market prices, corporate actions, dividends, benchmark series and event windows still require source-level validation.
-6. The original assignment PDF was not included with the master prompt; this source register follows the supplied master specification.
+6. The original assignment PDF and detailed execution notes were reviewed; this source register follows the supplied assignment and six-section execution specification.
 
 Do not remove these limitations until the corresponding source extraction and checks are complete.
 
@@ -75,7 +75,7 @@ The historical working CSV now includes a source-referenced ICICI standalone GNP
 | FY | GNPA | NNPA | PCR excluding technical/prudential write-offs |
 |---|---:|---:|---:|
 | FY2017 | 7.89% | 4.89% | 40.2% |
-| FY2018 | 8.84% | 4.77% | 48.4% |
+| FY2018 | 8.84% | 4.77% | 47.7% |
 | FY2019 | 6.70% | 2.06% | 70.6% |
 
 Sources: [ICRA ICICI Bank rating rationale](https://www.icra.in/Rating/GetRationalReportFilePdf/79066) for FY2017 and [ICRA FY2018 rating rationale](https://www.icra.in/Rating/ShowRationalReportFilePdf/72272); [ICICI Bank Q4 FY2019 performance review](https://www.icici.bank.in/about-us/news-room/2019/news-dadad) for FY2019. PCR values exclude technical/prudential write-offs; do not mix with coverage measures that include them.
