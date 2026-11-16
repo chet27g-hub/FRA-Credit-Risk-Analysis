@@ -1,0 +1,37 @@
+name: Dashboard browser QA
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  browser-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install Playwright
+        run: npm install --no-save playwright
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Run dashboard browser checks
+        run: |
+          python3 -m http.server 4173 >/tmp/fra-http.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          node tests/dashboard-qa.cjs
+      - name: Upload dashboard screenshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fra-dashboard-browser-qa
+          path: /tmp/fra-dashboard-qa.png
+          if-no-files-found: ignore
