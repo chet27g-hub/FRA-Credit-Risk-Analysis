@@ -114,3 +114,21 @@ The stock bridge reconciles exactly. Q2 FY2027 ratio measures are based on custo
 - **Monetary tightening, May 2022–February 2023:** RBI increased the repo rate cumulatively by 250 bps from 4.0% to 6.5%. [RBI Annual Report 2022–23](https://rbi.org.in/scripts/AnnualReportPublications.aspx?Id=1384).
 - **Bajaj Finance FY2025 provisioning:** consolidated loan-loss provisions increased 72% to ₹7,966 crore from ₹4,631 crore, while AUM grew 26%; management cited macro deterioration and increasing leverage on unsecured loans. [Bajaj Finance FY2025 Annual Report](https://www.bajajfinserv.in/finance-digital-annual-report-fy25/bajaj-finance-ltd-ar-2024-25-assets/pdf/annual-report-fy2025.pdf).
 - **Bajaj Finance leadership changes, 2025:** Rajeev Jain moved from MD to Vice Chairman on 1 April 2025; Anup Saha became MD and resigned on 21 July 2025, after which Rajeev Jain was re-designated VC & MD. [FY25 corporate information](https://www.bajajfinserv.in/finance-digital-annual-report-fy25/corporate-information.html) and [Q1 FY26 investor presentation](https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q1-fy26-investor-presentationpdf?amp%3Bscl=1&fmt=pdf).
+
+
+## ICICI Bank standalone ten-year reported asset-quality series (FY2017–FY2026)
+
+| FY | GNPA % | NNPA % | PCR % (reported) | Source basis note |
+|---|---:|---:|---:|---|
+| FY2017 | 7.89 | 4.89 | 40.2 | ICRA / bank annual-report historical disclosures; PCR excluding technical/prudential write-offs |
+| FY2018 | 8.84 | 4.77 | 47.7 | ICRA / bank annual-report historical disclosures; PCR excluding technical/prudential write-offs |
+| FY2019 | 6.70 | 2.06 | 70.6 | ICICI Q4 FY19 performance review; PCR excluding technical/prudential write-offs |
+| FY2020 | 5.53 | 1.41 | 75.7 | Company performance review; PCR excluding technical write-offs |
+| FY2021 | 4.96 | 1.14 | 77.7 | Company performance review / annual report |
+| FY2022 | 3.60 | 0.76 | 79.2 | Company performance review |
+| FY2023 | 2.81 | 0.48 | 82.8 | Company performance review |
+| FY2024 | 2.16 | 0.42 | 80.3 | Company performance review |
+| FY2025 | 1.73 | 0.42 | 76.2 | Standalone financial statements / annual report |
+| FY2026 | 1.44 | 0.35 | 75.8 | Standalone financial statements / annual report |
+
+**Comparability note:** FY2017–FY2019 ICRA/bank ratio definitions use the source's gross/net advances convention; FY2020–FY2024 company performance reviews use customer-assets denominators for the reported ratios; FY2025–FY2026 values are taken from standalone financial statements. PCR is excluding technical/prudential write-offs in the earlier years where explicitly stated; later company-reported PCR may use a different convention. Do not interpret this as a perfectly homogeneous time series. The historical CSV retains the source URL and verification note on each observation.
