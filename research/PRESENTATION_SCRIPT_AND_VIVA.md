@@ -58,7 +58,7 @@ For Bajaj Finance, standalone GNPA increased from 1.18% in FY2025 to 1.27% in FY
 
 Reported loan losses and provisions rose from ₹7,027 crore to ₹9,290 crore, approximately 32.2%. However, the FY2026 filing discusses additional ECL provisions and a presentation change. Before those additional ECL provisions and the presentation change, the FY2026 figure was ₹8,523 crore. Therefore, the entire increase should not automatically be interpreted as deterioration in borrower quality.
 
-The key lesson is that rapid lending growth must be considered together with asset quality, provisions, portfolio composition and collection performance. ICICI's FY2025 and FY2026 NPA stock bridges reconcile gross additions, recoveries/upgrades/others, write-offs and NPA sales to the closing gross NPA stock; the dashboard presents the full bridge rather than inferring improvement from GNPA alone.
+The key lesson is that rapid lending growth must be considered together with asset quality, provisions, portfolio composition and collection performance. ICICI's gross NPA stock bridge reconciles exactly. FY2025: ₹27,962 crore opening + ₹20,211 crore additions − ₹11,763 crore recoveries/upgrades/others − ₹9,270 crore write-offs − ₹2,974 crore NPA sales = ₹24,166 crore closing. FY2026: ₹24,166 crore + ₹19,147 crore − ₹11,492 crore − ₹8,424 crore − ₹345 crore = ₹23,052 crore. Q2 FY2027: ₹23,847 crore + ₹4,833 crore − ₹3,620 crore − ₹1,592 crore − ₹133 crore = ₹23,335 crore. The Q2 FY27 ratio is on a customer-assets basis, whereas FY26 standalone statements report GNPA on gross advances; these denominators should not be compared directly.
 
 ### 8:00–11:00 | Systematic and idiosyncratic risk
 
@@ -104,7 +104,7 @@ Thank you.
 
 ---
 
-## Faculty viva — 24 questions and evidence-based answers
+## Faculty viva — 26 questions and evidence-based answers
 
 ### 1. Why did you select ICICI Bank?
 
