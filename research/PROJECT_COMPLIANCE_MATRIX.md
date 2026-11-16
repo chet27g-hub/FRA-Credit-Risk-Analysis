@@ -55,3 +55,15 @@ Website: https://chet27g-hub.github.io/FRA-Credit-Risk-Analysis/
 8. Complete desktop/mobile browser QA and confirm the GitHub Pages deployment.
 
 **Project status:** The website structure and FY2026 research layer have been materially improved, but the full project is not yet complete. Historical data verification and market event-study work are the main remaining analytical deliverables.
+
+
+## Addendum — final execution pass (16 November 2026)
+
+- Replaced the duplicated opening overview with research questions, institution classification and peer-selection rationale only.
+- Removed the duplicated overview asset-quality chart and FY26 KPI repetition from Page 1.
+- Peer Benchmarking now uses FY2026 annual scorecards and two FY2026 horizontal comparison charts; the previous FY2021–FY2025 hard-coded peer trend charts were removed from this page because they were not source-audited.
+- Historical trends now show separate ICICI standalone and Bajaj consolidated working panels; FY2026 standalone movement and FY2027 interim disclosures are separate.
+- Removed the unverified annual share-price series, fabricated annual event-return table and unsupported investment-growth narrative. Market reaction remains unquantified until daily adjusted-price data are sourced and validated.
+- Replaced conflicting dark/light style overrides with one light design system; added section progress, previous/next controls, keyboard navigation and full-screen presentation mode.
+- Added ICICI Q2 FY2027 official asset-quality, NPA additions, recoveries/upgrades and write-off observations to the canonical FY2026 peer CSV as a separately labelled interim period.
+- Remaining material gaps: historical FY2017–FY2025 source-to-cell audit, complete slippage/write-off/credit-cost series, and daily-price event study/correlation.
