@@ -109,3 +109,8 @@ The original assignment PDF and uploaded detailed execution notes have been revi
 ## Source and scope clarification
 
 The original assignment PDF was reviewed. ICICI's ten-year GNPA/NNPA/PCR observations now have source links; they are not a perfectly homogeneous time series because the denominator and PCR write-off conventions vary. The dashboard explicitly marks those breaks. The historical peer data for the other seven institutions and Bajaj's consolidated historical source-to-cell audit remain incomplete.
+
+
+## Peer-series merger structural breaks
+
+The Peer Benchmarking page now flags the HDFC Ltd–HDFC Bank merger effective 1 July 2023 and the Shriram Transport Finance–Shriram City Union Finance merger in December 2022. Historical growth and credit-risk series for these entities require pro forma predecessor consolidation or explicit structural-break treatment.
