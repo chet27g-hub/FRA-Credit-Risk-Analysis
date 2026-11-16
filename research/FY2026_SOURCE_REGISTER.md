@@ -52,3 +52,17 @@ Do not remove these limitations until the corresponding source extraction and ch
 ## Separate interim observation — Bajaj Finance H1 FY2027 (30 September 2026)
 
 The interim standalone communication reports AUM ₹4,26,879 crore, GNPA 1.33%, NNPA 0.53% and Stage 3 PCR 60%. These observations are shown separately from FY2026 annual figures and must not be blended into FY2026 peer rankings. [Official NSE filing](https://nsearchives.nseindia.com/corporate/BAJFINANCE_07112026162848_Half_yearly_communication_Signed.pdf).
+
+
+## Interim source update — ICICI Bank Q2 FY2027 (30 September 2026)
+
+[Official Q2 FY2027 performance review](https://www.icici.bank.in/about-us/news-room/2026/performance-review-quarter-ended-september-30-2026)
+
+- Standalone GNPA ratio: 1.20%; NNPA ratio: 0.30%; PCR: 75.0%.
+- Standalone advances: ₹18,31,580 crore.
+- Gross NPA additions during Q2: ₹4,833 crore.
+- Recoveries and upgrades, excluding write-offs and sale: ₹3,620 crore.
+- Gross NPA write-offs: ₹1,592 crore.
+- Net additions to gross NPAs, excluding write-offs and sale: ₹1,213 crore.
+
+These are quarterly interim observations and are kept separate from FY2026 annual peer comparisons. The additions/recoveries/write-offs figures do not form a complete stock reconciliation without sales and other adjustments.
