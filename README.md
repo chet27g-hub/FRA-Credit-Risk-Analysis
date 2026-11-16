@@ -18,6 +18,7 @@ Open the published dashboard: https://chet27g-hub.github.io/FRA-Credit-Risk-Anal
 ## Canonical data files
 
 - `data/fy2026_peer_snapshot.csv` — primary-source FY2026 peer observations and separately identified FY2027 interim observations. The dashboard reads the FY2026 peer tables and charts from this file.
+- `data/market_event_reaction_snapshots.csv` — three sourced but unadjusted trading-reaction snapshots; not an abnormal-return dataset.
 - `data/historical_credit_risk_working.csv` — source-linked ICICI standalone GNPA/NNPA/PCR series for FY2017–FY2026, Bajaj consolidated working series for FY2018–FY2026, separately sourced Bajaj standalone FY2025–FY2026 observations, NPA roll-forward data and verification status by observation. Denominator breaks and provisional values are explicitly noted; blank cells are not zeros.
 - `research/FY2026_SOURCE_REGISTER.md` — source URLs, reporting bases, definitions and verification notes.
 - `research/PRESENTATION_SCRIPT_AND_VIVA.md` — 15-minute presentation narrative and faculty viva questions.
