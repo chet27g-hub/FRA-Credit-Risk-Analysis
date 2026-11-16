@@ -15,6 +15,7 @@ const { chromium } = require('playwright');
       { timeout: 15000 }
     );
     await page.waitForFunction(() => document.querySelectorAll('#creditTable tbody tr').length === 10, { timeout: 15000 });
+    await page.waitForFunction(() => document.querySelectorAll('#standaloneMovementTable tbody tr').length === 3, { timeout: 15000 });
     await page.waitForFunction(() => window.Chart && document.getElementById('bankGnpaChart'), { timeout: 15000 });
 
     const sections = await page.locator('.section').count();
@@ -36,6 +37,7 @@ const { chromium } = require('playwright');
 
     await page.locator('#marketPeriod').selectOption('regulatory');
     if (!(await page.locator('#marketReactionCard').isVisible())) throw new Error('Regulatory market reaction snapshots should be visible');
+    await page.waitForFunction(() => document.querySelectorAll('#marketReactionTable tbody tr').length === 3, { timeout: 15000 });
 
     await page.locator('[data-page="overview"]').click();
     await page.locator('#presentationToggle').click();
