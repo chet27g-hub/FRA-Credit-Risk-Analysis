@@ -67,3 +67,8 @@ Website: https://chet27g-hub.github.io/FRA-Credit-Risk-Analysis/
 - Replaced conflicting dark/light style overrides with one light design system; added section progress, previous/next controls, keyboard navigation and full-screen presentation mode.
 - Added ICICI Q2 FY2027 official asset-quality, NPA additions, recoveries/upgrades and write-off observations to the canonical FY2026 peer CSV as a separately labelled interim period.
 - Remaining material gaps: historical FY2017–FY2025 source-to-cell audit, complete slippage/write-off/credit-cost series, and daily-price event study/correlation.
+
+
+## Historical-series update — ICICI Bank FY2017–FY2019
+
+The historical working CSV now contains source-referenced ICICI standalone GNPA, NNPA and PCR observations for FY2017, FY2018 and FY2019. These complete a ten-year ICICI ratio horizon through FY2026. FY2017–FY2018 figures use ICRA rating disclosures; FY2019 uses the bank's Q4 FY2019 performance review. PCR is explicitly on an excluding technical/prudential write-off basis. FY2020–FY2024 still require full annual-report source-to-cell reconciliation. Bajaj Finance remains a FY2018–FY2026 consolidated working series, with the standalone FY2025–FY2026 comparison shown separately.
