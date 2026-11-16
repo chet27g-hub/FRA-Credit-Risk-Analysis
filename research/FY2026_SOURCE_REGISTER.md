@@ -132,3 +132,8 @@ The stock bridge reconciles exactly. Q2 FY2027 ratio measures are based on custo
 | FY2026 | 1.44 | 0.35 | 75.8 | Standalone financial statements / annual report |
 
 **Comparability note:** FY2017–FY2019 ICRA/bank ratio definitions use the source's gross/net advances convention; FY2020–FY2024 company performance reviews use customer-assets denominators for the reported ratios; FY2025–FY2026 values are taken from standalone financial statements. PCR is excluding technical/prudential write-offs in the earlier years where explicitly stated; later company-reported PCR may use a different convention. Do not interpret this as a perfectly homogeneous time series. The historical CSV retains the source URL and verification note on each observation.
+
+
+## Market reaction data file
+
+The dashboard's three reported raw market-reaction snapshots are also stored in [market_event_reaction_snapshots.csv](../data/market_event_reaction_snapshots.csv). Each row records the date, institution, event, reported move, move type, benchmark observation, limitation and source URL. These are secondary-source observations, not adjusted returns or abnormal returns.
