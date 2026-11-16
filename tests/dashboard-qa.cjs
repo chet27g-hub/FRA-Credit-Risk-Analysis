@@ -10,7 +10,7 @@ const { chromium } = require('playwright');
   const state=await page.locator('main > .section').evaluateAll(ns=>ns.map(n=>({id:n.id,display:getComputedStyle(n).display,active:n.classList.contains('active'),parent:n.parentElement.tagName})));
   const visible=state.filter(x=>x.display!=='none');
   if(state.length!==6||visible.length!==1||visible[0].id!==expected||!visible[0].active||visible[0].parent!=='MAIN')throw Error('Section leak: '+JSON.stringify(state));
-  const leaked=await page.locator('canvas').evaluateAll(ns=>ns.filter(c=>!c.closest('.section')||getComputedStyle(c.closest('.section')).display!=='none'&&c.closest('.section').id!==expected).length);
+  const leaked=await page.locator('canvas').evaluateAll((ns,activeId)=>ns.filter(c=>!c.closest('.section')||(getComputedStyle(c.closest('.section')).display!=='none'&&c.closest('.section').id!==activeId)).length,expected);
   if(leaked)throw Error('Chart canvases leaked: '+leaked);
  };
  const go=async id=>{await page.locator('.nav button[data-page="'+id+'"]').click();await page.waitForFunction(x=>document.querySelector('.section.active')?.id===x,id);await check(id);};
