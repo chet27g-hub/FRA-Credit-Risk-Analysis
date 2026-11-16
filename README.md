@@ -42,3 +42,8 @@ Open `index.html` in a browser. For CSV-driven peer data, use a local static ser
 - Bajaj historical consolidated values remain provisional pending source-to-cell audit; standalone FY2025–FY2026 ratios are separate.
 - ICICI FY2025, FY2026 and Q2 FY2027 gross NPA stock bridges reconcile additions, recoveries/upgrades/others, write-offs and sales to closing gross NPAs.
 - The market period selector covers Banking NPA Stress, IL&FS, COVID-19, Monetary Tightening and Regulatory Developments. Three reported raw price-reaction snapshots are not presented as abnormal returns.
+
+
+## Automated browser QA
+
+A GitHub Actions workflow at `.github/workflows/dashboard-qa.yml` runs Playwright checks on every push to `main`. It verifies six-section navigation, CSV-driven peer tables and historical rows, metric switching, event filters, market-period filtering and presentation mode. The workflow uploads a full-page screenshot artifact when successful.
