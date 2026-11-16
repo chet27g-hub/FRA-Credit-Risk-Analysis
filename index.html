@@ -78,12 +78,11 @@ tr:hover td{background:#f7f9fd}
   <div class="subbrand">FRA GROUP PROJECT 02 / INDIA</div>
   <div class="navlabel">RESEARCH TERMINAL</div>
   <nav class="nav">
-    <button class="active" data-page="overview"><span class="ico">◈</span> Executive Overview</button>
-    <button data-page="credit"><span class="ico">▥</span> Credit Risk Analysis</button>
-    <button data-page="peers"><span class="ico">◎</span> Peer Benchmarking</button>
-    <button data-page="risk"><span class="ico">⌁</span> Risk Events</button>
-    <button data-page="market"><span class="ico">↗</span> Stock Market Reaction</button>
-    <button data-page="method"><span class="ico">⌘</span> Methodology & Sources</button>
+    <button class="active" data-page="overview"><span class="ico">◈</span> 1 · Framework & Peers</button>
+    <button data-page="credit"><span class="ico">▥</span> 2 · Credit Risk</button>
+    <button data-page="risk"><span class="ico">⌁</span> 3 · Risk Drivers</button>
+    <button data-page="market"><span class="ico">↗</span> 4 · Market Reaction</button>
+    <button data-page="method"><span class="ico">⌘</span> 5 · Methodology & Sources</button>
   </nav>
   <div class="sidefoot">ICICI BANK · BAJAJ FINANCE<br>FY2017 — FY2026<br><br>RESEARCH BUILD / 01.0</div>
 </aside>
@@ -141,7 +140,7 @@ tr:hover td{background:#f7f9fd}
 
 
   <section class="section" id="peers">
-    <div class="eyebrow">02 / Relative performance</div>
+    <div class="eyebrow">01 / Research framework and peer selection</div>
     <h2 class="h1" style="font-size:27px">Peer Benchmarking</h2>
     <p class="lede">Compact FY2025 peer scorecards and five-year trends. Peer figures remain provisional until each peer's own annual report and metric definitions are reconciled; they are not part of the verified core series.</p>
 
@@ -213,7 +212,9 @@ tr:hover td{background:#f7f9fd}
       <div class="event"><div class="year">5 Jan 2021</div><div><h4>RBI penalty on Bajaj Finance — recovery practices</h4><p>RBI imposed a ₹2.50 crore penalty after finding failures relating to recovery-agent conduct, customer harassment/intimidation and fair-practices/outsourcing requirements. This is conduct and operational risk, not proof of an NPA event. <a href="https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50918" target="_blank" rel="noopener">RBI press release</a></p></div></div>
       <div class="event"><div class="year">15 Nov 2023</div><div><h4>RBI restricts two Bajaj Finance digital products</h4><p>RBI directed Bajaj Finance to stop sanction and disbursal under eCOM and Insta EMI Card due to non-issuance/deficiencies in Key Fact Statements under digital-lending rules. This directly affected product origination and highlighted compliance and customer-disclosure risk. <a href="https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56745" target="_blank" rel="noopener">RBI press release</a></p></div></div>
       <div class="event"><div class="year">2 May 2024</div><div><h4>RBI lifts Bajaj Finance product restrictions</h4><p>RBI lifted the eCOM and digital Insta EMI Card restrictions after remedial actions. Treat this as resolution of the 2023 supervisory restriction; do not assume an immediate credit-quality effect. <a href="https://www.bajajfinserv.in/corporate/media/investor-presentation-29-01-2024pdf?fmt=pdf&scl=1" target="_blank" rel="noopener">Company regulatory update</a></p></div></div>
-      <div class="event"><div class="year">2 May 2025</div><div><h4>RBI penalty on ICICI Bank — compliance deficiencies</h4><p>RBI imposed a ₹97.80 lakh penalty relating to cyber-security incident reporting, account-alert software and credit-card statement/late-charge compliance. This is operational, cyber and conduct risk, not a direct credit-loss finding. <a href="https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60358" target="_blank" rel="noopener">RBI press release</a></p></div></div>
+      <div class="event"><div class="year">3 May 2021</div><div><h4>RBI penalty on ICICI Bank — investment portfolio norms</h4><p>RBI imposed a ₹3 crore penalty for contravention of prudential directions on classification, valuation and operation of the investment portfolio. This is regulatory-compliance risk, not evidence of a loan-NPA event. <a href="https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=51519" target="_blank" rel="noopener">RBI press release</a></p></div></div>
+      <div class="event"><div class="year">2 May 2025</div><div><h4>RBI penalty on ICICI Bank — cyber, KYC and card conduct controls</h4><p>RBI imposed a ₹97.80 lakh penalty after supervisory findings concerning cyber-incident reporting, account-alert software and credit-card billing/late-charge requirements. Classify as operational, cyber and conduct-compliance risk, not direct evidence of credit losses or GNPA deterioration. <a href="https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60358" target="_blank" rel="noopener">RBI press release</a></p></div></div>
+      <div class="event"><div class="year">8 Aug 2025</div><div><h4>RBI penalty on ICICI Bank — property valuation and current-account rules</h4><p>RBI imposed a ₹75 lakh penalty for non-compliance relating to independent property valuations in certain mortgage loans and current-account discipline. Treat this as process and regulatory-control risk; do not infer a quantified credit-loss effect without loan-level evidence. <a href="https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=60989" target="_blank" rel="noopener">RBI press release</a></p></div></div>
       <div class="event"><div class="year">Ongoing</div><div><h4>Underwriting, concentration and model risk</h4><p>Rapid growth, weaker borrower selection, concentration in customer/product segments, fraud and model drift can increase credit losses. Test using segment-level AUM growth, delinquencies, slippages, write-offs and vintage performance disclosed by each lender.</p></div></div>
     </div>
     </div>
@@ -288,7 +289,7 @@ function makeChart(ctx,sets){return new Chart(ctx,{type:'line',data:{labels:year
 function series(label,values,color){return {label,data:values,borderColor:color,backgroundColor:color,pointRadius:3,pointHoverRadius:5,borderWidth:2,tension:.28,spanGaps:false};}
 function fillCreditTable(){let t=document.getElementById('creditTable');t.innerHTML='<thead><tr><th>Financial year</th><th>ICICI GNPA %</th><th>ICICI NNPA %</th><th>ICICI PCR %</th><th>Bajaj GNPA %</th><th>Bajaj NNPA %</th><th>Bajaj PCR %</th></tr></thead><tbody>'+years.map((y,i)=>`<tr><td>${y}</td><td>${fmt(data.icici.gnpa[i])}</td><td>${fmt(data.icici.nnpa[i])}</td><td>${fmt(data.icici.pcr[i])}</td><td>${fmt(data.bajaj.gnpa[i])}</td><td>${fmt(data.bajaj.nnpa[i])}</td><td>${fmt(data.bajaj.pcr[i])}</td></tr>`).join('')+'</tbody>';}
 function updateMetric(){const key=document.getElementById('metricSelect').value;const names={gnpa:'Gross NPA ratio',nnpa:'Net NPA ratio',pcr:'Provision Coverage Ratio'};document.getElementById('metricTitle').textContent=names[key];if(metricChart)metricChart.destroy();metricChart=makeChart(document.getElementById('metricChart'),[series('ICICI Bank',data.icici[key],'#53d6d0'),series('Bajaj Finance',data.bajaj[key]||Array(10).fill(null),'#ffb86b')]);}
-function activate(page){document.querySelectorAll('.section').forEach(s=>s.classList.toggle('active',s.id===page));document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.page===page));window.scrollTo({top:0,behavior:'smooth'});if(page==='credit')updateMetric();if(page==='peers'){setTimeout(()=>Chart.instances.forEach(c=>c.resize()),80);}}
+function activate(page){document.querySelectorAll('.section').forEach(s=>s.classList.toggle('active',s.id===page||(page==='overview'&&s.id==='peers')));document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.page===page));window.scrollTo({top:0,behavior:'smooth'});if(page==='credit')updateMetric();if(page==='overview'){setTimeout(()=>Chart.instances.forEach(c=>c.resize()),80);}}
 document.querySelectorAll('.nav button').forEach(b=>b.addEventListener('click',()=>activate(b.dataset.page)));
 document.getElementById('metricSelect').addEventListener('change',updateMetric);
 
