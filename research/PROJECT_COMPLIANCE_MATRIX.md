@@ -77,3 +77,12 @@ The historical working CSV now contains source-referenced ICICI standalone GNPA,
 ## Market-reaction evidence update
 
 Three secondary-source short-term market-reaction snapshots have been added to Page 5: Bajaj Finance after the November 2023 RBI restriction, Bajaj Finance after the May 2024 lifting, and ICICI Bank after the May 2025 penalty. They are labelled as unadjusted observations only. Daily adjusted-price event windows, abnormal returns and statistical correlation remain pending.
+
+
+## Further risk and credit-flow research update
+
+- Page 3 now includes a fully reconciled ICICI gross NPA stock bridge for FY2025, FY2026 and Q2 FY2027, including gross additions, recoveries/upgrades/others, write-offs and NPA sales.
+- Page 4 now covers the 2016–2018 banking NPA recognition cycle, IL&FS liquidity contagion, 2022–2023 monetary tightening, the ICICI Videocon governance controversy, Bajaj Finance FY2025 provision growth and 2025 leadership changes.
+- An institution-specific comparison matrix distinguishes governance/credit-approval risk at ICICI from digital-lending compliance at Bajaj Finance.
+- Page 5 restores a period selector for Banking NPA Stress, IL&FS, COVID-19, Monetary Tightening and Regulatory Developments. It explicitly shows where no verified price window is available.
+- Three secondary-source market reaction snapshots are documented; a full daily adjusted-price event study and correlation analysis remain pending.
