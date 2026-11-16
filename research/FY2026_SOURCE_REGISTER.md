@@ -48,3 +48,7 @@ Research cut-off: 16 November 2026. Period: FY2026 annual observations (31 March
 6. The original assignment PDF was not included with the master prompt; this source register follows the supplied master specification.
 
 Do not remove these limitations until the corresponding source extraction and checks are complete.
+
+## Separate interim observation — Bajaj Finance H1 FY2027 (30 September 2026)
+
+The interim standalone communication reports AUM ₹4,26,879 crore, GNPA 1.33%, NNPA 0.53% and Stage 3 PCR 60%. These observations are shown separately from FY2026 annual figures and must not be blended into FY2026 peer rankings. [Official NSE filing](https://nsearchives.nseindia.com/corporate/BAJFINANCE_07112026162848_Half_yearly_communication_Signed.pdf).
