@@ -29,8 +29,8 @@ Website: https://chet27g-hub.github.io/FRA-Credit-Risk-Analysis/
 | CSV dataset | Partial | FY2026 peer snapshot with 48 rows, sources, units, basis and verification status; not yet the complete ten-year dataset. |
 | Source register | Partial | FY2026 primary source register and definitions created; historical year-by-year source citations still needed. |
 | Fifteen-minute presentation script | Done as a draft | Script and 24 viva questions are in the companion presentation file. It explicitly avoids unsupported historical and market claims. |
-| Mobile / browser / interaction testing | Pending | Repository code structure checked; full browser QA has not been completed. |
-| Live GitHub Pages deployment | Not confirmed | Commits are on the default branch. Published URL could not be independently fetched in this session; do not claim live deployment success. |
+| Mobile / browser / interaction testing | Partial | Playwright Chromium QA passed for six-section navigation, CSV-driven peer tables, ten-year ICICI rows, metric switching, risk filters, market-period selector and presentation mode. Manual device-level mobile QA remains. |
+| Live GitHub Pages deployment | Done | GitHub Pages build and deployment succeeded on commit `329dfa08087e8b0a2ddaa10a0b55696d02d5a231` (workflow run 43869754207). |
 | Original assignment PDF reconciliation | Done | Original project PDF and detailed execution notes reviewed; final six-section structure mapped. |
 
 ## Verification rules used
@@ -52,7 +52,7 @@ Website: https://chet27g-hub.github.io/FRA-Credit-Risk-Analysis/
 5. Obtain adjusted daily stock prices and benchmark data, including corporate actions and dividends.
 6. Calculate event-window returns and abnormal returns for pre-specified events.
 7. Add charts only after the underlying time series pass validation.
-8. Complete desktop/mobile browser QA and confirm the GitHub Pages deployment.
+8. Complete manual device-level mobile QA; automated desktop Chromium QA and GitHub Pages deployment have passed.
 
 **Project status:** The website structure and FY2026 research layer have been materially improved, but the full project is not yet complete. Historical data verification and market event-study work are the main remaining analytical deliverables.
 
@@ -103,7 +103,7 @@ The original assignment PDF and uploaded detailed execution notes have been revi
 - Risk analysis: banking NPA recognition cycle, IL&FS liquidity contagion, COVID, monetary tightening, Videocon governance controversy, Bajaj digital-lending restrictions, FY2025 provisions and 2025 leadership changes included. Interactive event-type filters added.
 - Market analysis: period selector added for Banking NPA Stress, IL&FS, COVID-19, Monetary Tightening and Regulatory Developments. Three unadjusted market-reaction snapshots are sourced; daily adjusted-price event study and correlation remain incomplete.
 - Website UX: single light CSS system, responsive layout, section progress, previous/next controls, keyboard navigation and full-screen presentation mode added.
-- Original brief reconciliation: done. Live browser QA and latest GitHub Pages publication verification remain pending until the latest workflow completes.
+- Original brief reconciliation: done. Automated Chromium browser QA passed (workflow run 43869754052); GitHub Pages build/deployment passed (workflow run 43869754207). Manual mobile-device QA remains.
 
 
 ## Source and scope clarification
@@ -118,7 +118,7 @@ The Peer Benchmarking page now flags the HDFC Ltd–HDFC Bank merger effective 1
 
 ## Automated QA workflow
 
-A Playwright browser test and GitHub Actions workflow have been added. The automated checks cover all six sections, dynamic FY2026 peer tables, ten-year ICICI historical rows, metric switching, risk-event filtering, market-period filtering and presentation mode. The first run is pending; its result will determine whether browser QA can be marked complete.
+A Playwright browser test and GitHub Actions workflow have been added. The automated checks cover all six sections, dynamic FY2026 peer tables, ten-year ICICI historical rows, metric switching, risk-event filtering, market-period filtering and presentation mode. The latest run passed on 16 November 2026: six sections loaded, four bank peers and four NBFC peers rendered from CSV, ten historical ICICI rows loaded, nine idiosyncratic risk events filtered, market-period filtering worked, and presentation mode toggled successfully.
 
 
 ## Market snapshot dataset
