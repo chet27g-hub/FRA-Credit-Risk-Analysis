@@ -119,3 +119,8 @@ The Peer Benchmarking page now flags the HDFC Ltd–HDFC Bank merger effective 1
 ## Automated QA workflow
 
 A Playwright browser test and GitHub Actions workflow have been added. The automated checks cover all six sections, dynamic FY2026 peer tables, ten-year ICICI historical rows, metric switching, risk-event filtering, market-period filtering and presentation mode. The first run is pending; its result will determine whether browser QA can be marked complete.
+
+
+## Market snapshot dataset
+
+The three unadjusted market-reaction observations are stored in `data/market_event_reaction_snapshots.csv` and loaded into Page 5 from the CSV. They remain descriptive only; daily adjusted-price event study and matched benchmark analysis are pending.
