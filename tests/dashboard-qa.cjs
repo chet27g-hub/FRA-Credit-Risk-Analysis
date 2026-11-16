@@ -24,7 +24,7 @@ const { chromium } = require('playwright');
   if(!(await page.locator('#prevSection').isDisabled()))throw Error('Previous not disabled at first section');
   for(const id of ids.slice(1)){await page.locator('#nextSection').click();await page.waitForFunction(x=>document.querySelector('.section.active')?.id===x,id);await check(id);}
   if(!(await page.locator('#nextSection').isDisabled()))throw Error('Next not disabled at last section');
-  await page.locator('#nextSection').click();await check('conclusions');
+  await check('conclusions');
   for(const id of ids.slice(0,-1).reverse()){await page.locator('#prevSection').click();await page.waitForFunction(x=>document.querySelector('.section.active')?.id===x,id);await check(id);}
   if(!(await page.locator('#prevSection').isDisabled()))throw Error('Previous not disabled at first section');
   for(const id of ids)await go(id);
