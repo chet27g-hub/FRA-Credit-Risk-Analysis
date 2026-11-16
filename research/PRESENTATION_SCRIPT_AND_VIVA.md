@@ -84,7 +84,7 @@ A proper analysis requires daily adjusted prices, corporate-action adjustments, 
 
 We must also calculate volatility and maximum drawdown from a consistent daily series. For Bajaj Finance, a broader financial-services or NBFC benchmark may be more appropriate than automatically using Nifty Bank.
 
-Our existing annual closing-price series is still a working dataset and has not completed the source-to-cell and corporate-action audit. Therefore, we do not claim verified CAGR, event-day abnormal returns, statistically significant correlations or causation from those snapshots. The dashboard explicitly withholds those conclusions until daily adjusted market data is validated.
+The prior annual closing-price series was removed from the dashboard because it lacked a reproducible source-to-cell and corporate-action audit. Therefore, we do not claim verified CAGR, event-day abnormal returns, statistically significant correlations or causation from the three secondary-source snapshots. The dashboard explicitly withholds those conclusions until daily adjusted market data is validated.
 
 This is a research limitation, not a reason to manufacture a result.
 
@@ -94,9 +94,9 @@ We can now answer the three research questions.
 
 First, on credit-risk performance, FY2026 disclosures show ICICI Bank's standalone GNPA and NNPA improving year on year, while Bajaj Finance's standalone GNPA increased slightly and NNPA declined. The peer snapshot shows that relative performance differs by metric, and NBFC reporting definitions require careful treatment.
 
-Second, on risk drivers, common macroeconomic shocks such as COVID-19 affected multiple lenders, while events such as the Bajaj digital-lending restrictions were institution-specific compliance events. IL&FS demonstrates how an institution-specific shock can spread through a sector. The evidence does not yet quantify the causal contribution of each channel to historical NPA movements.
+Second, on risk drivers, the 2016–2018 banking NPA recognition cycle exposed corporate-credit stress; IL&FS transmitted liquidity stress across parts of the NBFC sector; COVID-19 was a systematic shock; and monetary tightening raised borrower and funding costs. ICICI's Videocon controversy illustrates governance risk, while Bajaj's digital-lending restrictions illustrate compliance risk. Bajaj's FY25 provisioning spike shows how macro deterioration and unsecured leverage can raise expected credit losses. These channels differ, and we do not claim one event caused all NPA movements.
 
-Third, on market reaction, the available annual price series is not sufficient for a defensible event study. Daily adjusted prices and benchmark returns are needed before we can make claims about abnormal returns or correlation with credit risk.
+Third, on market reaction, three secondary-source snapshots show short-term unadjusted price moves after selected regulatory events. They provide context but not a defensible event study. Daily adjusted prices and matched benchmark returns are needed before we can claim abnormal returns or correlation with credit risk.
 
 The central lesson is that credit risk cannot be understood through one ratio. Loan growth, borrower concentration, slippages, provisioning, write-offs, credit cost and management decisions must be examined together. Economic shocks may affect an entire sector, but the severity of the outcome depends partly on each institution's exposures and risk-management practices. Market prices add another perspective, but they do not replace fundamental credit-risk analysis.
 
@@ -216,3 +216,25 @@ The most important insight is that credit risk is multidimensional. FY2026 data 
 - [Cholamandalam FY2026 investor presentation](https://files.cholamandalam.com/Investor_Presentation_Mar2026_6088750f9e.pdf)
 - [Shriram Finance FY2026 standalone results](https://cdn.shriramfinance.in/sfl-kalam/files/2026-04/SFL_Quarterly-Results-Standalone-March-2026.pdf)
 - [Mahindra Finance FY2026 results release](https://www.mahindra.com/news-room/press-release/en/financial-results-quarter-4-and-full-year-fy26-standalone-and-consolidated-results)
+
+
+### 25. Why can ICICI's FY2026 GNPA ratio differ between the annual statements and Q2 FY2027 performance review?
+
+The FY2026 standalone financial statements report GNPA on a gross-advances basis, while the Q2 FY2027 performance review reports the ratio on a customer-assets basis. The denominator can include different categories such as lease receivables and credit substitutes. The figures should be labelled by basis rather than treated as contradictory.
+
+### 26. How do you reconcile the gross NPA stock?
+
+Opening gross NPAs plus gross additions, less recoveries/upgrades/others, write-offs and sales of NPAs, equals closing gross NPAs. ICICI's FY2025, FY2026 and Q2 FY2027 bridges in the dashboard reconcile exactly. A falling GNPA stock can therefore reflect both lower fresh slippages and higher recoveries/write-offs/sales; it is not by itself proof of better new-loan underwriting.
+
+
+## Additional official and supporting sources
+
+- [ICICI Bank FY2021 Annual Report](https://nsearchives.nseindia.com/corporate/ICICIBANK_24072021215429_BSE_NSE_AR2021.pdf) — historical asset-quality and PCR series.
+- [ICICI Bank FY2020 Q4 performance review](https://www.icici.bank.in/about-us/news-room/2020/news-performance-review-quarter-ended-march-31-2020)
+- [ICICI Bank FY2021 Q4 performance review](https://www.icici.bank.in/about-us/news-room/2021/news-performance-review-quarter-ended-march-31)
+- [ICICI Bank FY2022 Q4 performance review](https://www.icici.bank.in/about-us/news-room/2022/news-performance-review-quarter-ended-march-31-2022)
+- [ICICI Bank FY2023 Q4 performance review](https://www.icici.bank.in/about-us/article/performance-review-quarter-ended-march-thirty-one-two-zero-two-three)
+- [ICICI Bank FY2024 Q4 performance review](https://www.icici.bank.in/about-us/article/performance-review-quarter-ended-march-31-2024)
+- [ICICI Bank Q2 FY2027 investor presentation and NPA bridge](https://nsearchives.nseindia.in/corporate/ICICI2022_17102026164525_BSENSE17102026.pdf)
+- [RBI Bulletin — IL&FS and NBFC liquidity stress](https://www.rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=19658)
+- [Bajaj Finance FY2025 Annual Report](https://www.bajajfinserv.in/finance-digital-annual-report-fy25/bajaj-finance-ltd-ar-2024-25-assets/pdf/annual-report-fy2025.pdf)
