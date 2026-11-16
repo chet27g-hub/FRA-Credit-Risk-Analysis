@@ -58,19 +58,19 @@ For Bajaj Finance, standalone GNPA increased from 1.18% in FY2025 to 1.27% in FY
 
 Reported loan losses and provisions rose from ₹7,027 crore to ₹9,290 crore, approximately 32.2%. However, the FY2026 filing discusses additional ECL provisions and a presentation change. Before those additional ECL provisions and the presentation change, the FY2026 figure was ₹8,523 crore. Therefore, the entire increase should not automatically be interpreted as deterioration in borrower quality.
 
-The key lesson is that rapid lending growth must be considered together with asset quality, provisions, portfolio composition and collection performance.
+The key lesson is that rapid lending growth must be considered together with asset quality, provisions, portfolio composition and collection performance. ICICI's FY2025 and FY2026 NPA stock bridges reconcile gross additions, recoveries/upgrades/others, write-offs and NPA sales to the closing gross NPA stock; the dashboard presents the full bridge rather than inferring improvement from GNPA alone.
 
 ### 8:00–11:00 | Systematic and idiosyncratic risk
 
 We classify risk into three levels.
 
-Systematic risk is an economy-wide shock. COVID-19 is an example because lockdowns affected household income, business cash flows, collections and repayment capacity across the financial system.
+Systematic risk is an economy-wide shock. COVID-19 is an example because lockdowns affected household income, business cash flows, collections and repayment capacity across the financial system. The 2016–2018 banking NPA recognition cycle also exposed system-wide corporate-credit stress: ICICI Bank's standalone GNPA rose from 7.89% in FY2017 to 8.84% in FY2018 before easing to 6.70% in FY2019.
 
-Sector-wide risk affects a group of lenders through a common funding or asset-quality channel. The IL&FS crisis originated with institution-specific problems but transmitted liquidity stress across parts of the NBFC sector. It is therefore best described as institution-specific in origin with wider sector contagion.
+Sector-wide risk affects a group of lenders through a common funding or asset-quality channel. The IL&FS crisis originated with institution-specific problems but transmitted liquidity stress across parts of the NBFC sector. RBI records the August 2018 commercial-paper defaults, subsequent market risk aversion, higher funding costs and loss of market access for some NBFCs. It is therefore best described as institution-specific in origin with wider sector contagion.
 
 Idiosyncratic risk arises from a lender's own portfolio, underwriting, governance, operational controls or compliance decisions.
 
-For Bajaj Finance, RBI's November 2023 restrictions on eCOM and Insta EMI Card disbursals related to deficiencies in Key Fact Statements under digital-lending requirements. RBI lifted the restrictions in May 2024 after remedial actions. This is a compliance and product-origination event; it should not be presented as proof of borrower defaults.
+For ICICI Bank, the Videocon controversy raised conflict-of-interest and credit-approval oversight concerns. The independent enquiry found code-of-conduct and disclosure/recusal violations; the bank stated the report had no implications for published financial statements. The loan itself became an NPA, but the full sanctioned amount must not be described as a realised loss. For Bajaj Finance, FY2025 consolidated loan-loss provisions rose 72% to ₹7,966 crore from ₹4,631 crore while AUM grew 26%. Management attributed this to macro deterioration, rising leverage on unsecured loans and broader banking-sector stress. This is a credit-cost signal, not a 72% increase in realised defaults. RBI's November 2023 restrictions on eCOM and Insta EMI Card disbursals related to deficiencies in Key Fact Statements under digital-lending requirements. RBI lifted the restrictions in May 2024 after remedial actions. This is a compliance and product-origination event; it should not be presented as proof of borrower defaults.
 
 For ICICI Bank, the RBI's May 2021 penalty related to prudential directions on classification, valuation and operation of the investment portfolio. This is regulatory-compliance risk, not evidence of a loan-NPA event.
 
