@@ -65,7 +65,7 @@ The interim standalone communication reports AUM ₹4,26,879 crore, GNPA 1.33%, 
 - Gross NPA write-offs: ₹1,592 crore.
 - Net additions to gross NPAs, excluding write-offs and sale: ₹1,213 crore.
 
-These are quarterly interim observations and are kept separate from FY2026 annual peer comparisons. The additions/recoveries/write-offs figures do not form a complete stock reconciliation without sales and other adjustments.
+These are quarterly interim observations and are kept separate from FY2026 annual peer comparisons. The performance review reports additions, recoveries/upgrades and write-offs; the Q2 investor presentation additionally reports NPA sales, allowing a complete stock reconciliation.
 
 
 ## Historical ICICI Bank asset-quality series — FY2017 to FY2019
