@@ -196,7 +196,7 @@ Share prices reflect expected earnings, growth, interest rates, liquidity, risk 
 
 ### 23. How do mergers affect historical comparisons?
 
-A merger can change the scale, portfolio mix, asset base and reporting perimeter. HDFC Ltd's merger into HDFC Bank is a major example. Analysts must identify the effective date, restated comparatives and whether the historical series is pro forma or reported.
+A merger can change scale, portfolio mix, asset base and reporting perimeter. HDFC Ltd merged into HDFC Bank effective 1 July 2023; Shriram Transport Finance and Shriram City Union Finance merged to form Shriram Finance in December 2022. Analysts must identify effective dates, restated comparatives and whether the historical series is pro forma or reported.
 
 ### 24. What is the most important research finding?
 
