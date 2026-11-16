@@ -80,11 +80,11 @@ The analytical chain is: shock, borrower or funding exposure, credit quality, pr
 
 The market section asks whether investors reacted to credit-risk information.
 
-A proper analysis requires daily adjusted prices, corporate-action adjustments, a suitable benchmark, and precisely dated events. For each event, we should calculate pre-event, event-window and post-event returns, compare them with a benchmark, and estimate abnormal returns. A market model or another justified expected-return method can then be used to calculate cumulative abnormal returns.
+A proper analysis requires daily adjusted prices, corporate-action adjustments, a suitable benchmark, and precisely dated events. We also found three reported trading snapshots: Bajaj Finance fell about 4% intraday and later recovered after the November 2023 restrictions; it rose about 7.5% in early trade after the restrictions were lifted in May 2024; and ICICI Bank declined 0.21% on the first session after its May 2025 penalty while the Sensex rose 0.37%. These are unadjusted reported observations, not abnormal returns. For each event, we should calculate pre-event, event-window and post-event returns, compare them with a benchmark, and estimate abnormal returns. A market model or another justified expected-return method can then be used to calculate cumulative abnormal returns.
 
 We must also calculate volatility and maximum drawdown from a consistent daily series. For Bajaj Finance, a broader financial-services or NBFC benchmark may be more appropriate than automatically using Nifty Bank.
 
-Our existing annual closing-price series is still a working dataset and has not completed the source-to-cell and corporate-action audit. Therefore, we do not claim verified CAGR, event-day abnormal returns, statistically significant correlations or causation from it. The dashboard explicitly withholds those conclusions until the market data is validated.
+Our existing annual closing-price series is still a working dataset and has not completed the source-to-cell and corporate-action audit. Therefore, we do not claim verified CAGR, event-day abnormal returns, statistically significant correlations or causation from those snapshots. The dashboard explicitly withholds those conclusions until daily adjusted market data is validated.
 
 This is a research limitation, not a reason to manufacture a result.
 
