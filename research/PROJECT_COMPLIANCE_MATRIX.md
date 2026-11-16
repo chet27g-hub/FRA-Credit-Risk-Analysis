@@ -86,3 +86,8 @@ Three secondary-source short-term market-reaction snapshots have been added to P
 - An institution-specific comparison matrix distinguishes governance/credit-approval risk at ICICI from digital-lending compliance at Bajaj Finance.
 - Page 5 restores a period selector for Banking NPA Stress, IL&FS, COVID-19, Monetary Tightening and Regulatory Developments. It explicitly shows where no verified price window is available.
 - Three secondary-source market reaction snapshots are documented; a full daily adjusted-price event study and correlation analysis remain pending.
+
+
+## ICICI ten-year asset-quality series status
+
+The historical CSV now contains ICICI standalone GNPA, NNPA and PCR observations for FY2017–FY2026 with source links and per-row verification notes. FY2017–FY2018 use ICRA / annual-report historical disclosures; FY2019–FY2026 use company performance reviews and standalone financial statements. Denominator and PCR write-off definitions differ across periods and are documented; the chart is directional rather than a perfectly standardized series. FY2020–FY2024 still need page-level extraction and denominator cross-check. Bajaj FY2018–FY2025 consolidated observations remain provisional; FY2025–FY2026 standalone observations are separately sourced.
