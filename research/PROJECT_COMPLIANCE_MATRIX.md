@@ -124,3 +124,8 @@ A Playwright browser test and GitHub Actions workflow have been added. The autom
 ## Market snapshot dataset
 
 The three unadjusted market-reaction observations are stored in `data/market_event_reaction_snapshots.csv` and loaded into Page 5 from the CSV. They remain descriptive only; daily adjusted-price event study and matched benchmark analysis are pending.
+
+
+## Market snapshot dataset
+
+The three unadjusted market-reaction observations are stored in `data/market_event_reaction_snapshots.csv` and loaded into Page 5 from the CSV. They remain descriptive only; daily adjusted-price event study and matched benchmark analysis are pending.
