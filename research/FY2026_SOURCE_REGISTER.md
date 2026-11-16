@@ -66,3 +66,16 @@ The interim standalone communication reports AUM ₹4,26,879 crore, GNPA 1.33%, 
 - Net additions to gross NPAs, excluding write-offs and sale: ₹1,213 crore.
 
 These are quarterly interim observations and are kept separate from FY2026 annual peer comparisons. The additions/recoveries/write-offs figures do not form a complete stock reconciliation without sales and other adjustments.
+
+
+## Historical ICICI Bank asset-quality series — FY2017 to FY2019
+
+The historical working CSV now includes a source-referenced ICICI standalone GNPA/NNPA/PCR series for FY2017–FY2019:
+
+| FY | GNPA | NNPA | PCR excluding technical/prudential write-offs |
+|---|---:|---:|---:|
+| FY2017 | 7.89% | 4.89% | 40.2% |
+| FY2018 | 8.84% | 4.77% | 48.4% |
+| FY2019 | 6.70% | 2.06% | 70.6% |
+
+Sources: [ICRA ICICI Bank rating rationale](https://www.icra.in/Rating/GetRationalReportFilePdf/79066) for FY2017 and [ICRA FY2018 rating rationale](https://www.icra.in/Rating/ShowRationalReportFilePdf/72272); [ICICI Bank Q4 FY2019 performance review](https://www.icici.bank.in/about-us/news-room/2019/news-dadad) for FY2019. PCR values exclude technical/prudential write-offs; do not mix with coverage measures that include them.
