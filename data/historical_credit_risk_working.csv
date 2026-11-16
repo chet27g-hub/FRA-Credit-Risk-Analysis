@@ -1,0 +1,41 @@
+institution,financial_year,reporting_basis,metric,value,unit,verification_status,source_note
+ICICI Bank,FY17,Standalone,GNPA ratio,,percent,Not populated,Historical annual report extraction pending
+ICICI Bank,FY18,Standalone,GNPA ratio,,percent,Not populated,Historical annual report extraction pending
+ICICI Bank,FY19,Standalone,GNPA ratio,,percent,Not populated,Historical annual report extraction pending
+ICICI Bank,FY20,Standalone,GNPA ratio,5.53,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+ICICI Bank,FY21,Standalone,GNPA ratio,4.96,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+ICICI Bank,FY22,Standalone,GNPA ratio,3.60,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+ICICI Bank,FY23,Standalone,GNPA ratio,2.81,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+ICICI Bank,FY24,Standalone,GNPA ratio,2.16,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+ICICI Bank,FY25,Standalone,GNPA ratio,1.73,percent,Verified primary disclosure,FY26 annual report comparison
+ICICI Bank,FY26,Standalone,GNPA ratio,1.44,percent,Verified primary disclosure,FY26 annual report
+ICICI Bank,FY17,Standalone,NNPA ratio,,percent,Not populated,Historical annual report extraction pending
+ICICI Bank,FY18,Standalone,NNPA ratio,,percent,Not populated,Historical annual report extraction pending
+ICICI Bank,FY19,Standalone,NNPA ratio,,percent,Not populated,Historical annual report extraction pending
+ICICI Bank,FY20,Standalone,NNPA ratio,1.41,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+ICICI Bank,FY21,Standalone,NNPA ratio,1.14,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+ICICI Bank,FY22,Standalone,NNPA ratio,0.76,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+ICICI Bank,FY23,Standalone,NNPA ratio,0.48,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+ICICI Bank,FY24,Standalone,NNPA ratio,0.42,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+ICICI Bank,FY25,Standalone,NNPA ratio,0.42,percent,Verified primary disclosure,FY26 annual report comparison
+ICICI Bank,FY26,Standalone,NNPA ratio,0.35,percent,Verified primary disclosure,FY26 annual report
+Bajaj Finance,FY17,Consolidated,GNPA ratio,,percent,Not populated,Comparable consolidated figure not verified
+Bajaj Finance,FY18,Consolidated,GNPA ratio,1.41,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+Bajaj Finance,FY19,Consolidated,GNPA ratio,1.54,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+Bajaj Finance,FY20,Consolidated,GNPA ratio,1.61,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+Bajaj Finance,FY21,Consolidated,GNPA ratio,1.79,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+Bajaj Finance,FY22,Consolidated,GNPA ratio,1.60,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+Bajaj Finance,FY23,Consolidated,GNPA ratio,0.94,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+Bajaj Finance,FY24,Consolidated,GNPA ratio,0.85,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+Bajaj Finance,FY25,Consolidated,GNPA ratio,0.96,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+Bajaj Finance,FY26,Consolidated,GNPA ratio,1.01,percent,Verified primary disclosure,FY26 annual report
+Bajaj Finance,FY17,Consolidated,NNPA ratio,,percent,Not populated,Comparable consolidated figure not verified
+Bajaj Finance,FY18,Consolidated,NNPA ratio,0.43,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+Bajaj Finance,FY19,Consolidated,NNPA ratio,0.63,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+Bajaj Finance,FY20,Consolidated,NNPA ratio,0.65,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+Bajaj Finance,FY21,Consolidated,NNPA ratio,0.75,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+Bajaj Finance,FY22,Consolidated,NNPA ratio,0.68,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+Bajaj Finance,FY23,Consolidated,NNPA ratio,0.34,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+Bajaj Finance,FY24,Consolidated,NNPA ratio,0.37,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+Bajaj Finance,FY25,Consolidated,NNPA ratio,0.44,percent,Working series - source audit pending,Legacy dashboard value; not yet source-to-cell reconciled
+Bajaj Finance,FY26,Consolidated,NNPA ratio,0.41,percent,Verified primary disclosure,FY26 annual report
