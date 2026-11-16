@@ -88,3 +88,29 @@ Sources: [ICRA ICICI Bank rating rationale](https://www.icra.in/Rating/GetRation
 - **5 May 2025 — ICICI Bank:** [MarketWatch](https://www.marketwatch.com/story/icici-bank-falls-monday-outperforms-competitors-4a6fe256-699094bef78e) reported a 0.21% decline while the Sensex rose 0.37%, following the RBI penalty announcement.
 
 These are secondary-source, unadjusted trading snapshots. They are not close-to-close adjusted returns, abnormal returns or evidence of causation. The full event study remains pending daily adjusted price and matched benchmark data.
+
+
+## ICICI Bank NPA movement bridge — FY2025, FY2026 and Q2 FY2027
+
+The annual FY2025 and FY2026 movement figures are from the FY2026 Management Discussion & Analysis; the Q2 FY2027 movement is from the [ICICI Q2 FY2027 investor presentation filed with NSE](https://nsearchives.nseindia.in/corporate/ICICI2022_17102026164525_BSENSE17102026.pdf).
+
+| ₹ crore | FY2025 | FY2026 | Q2 FY2027 |
+|---|---:|---:|---:|
+| Opening gross NPAs | 27,962 | 24,166 | 23,847 |
+| Gross additions | 20,211 | 19,147 | 4,833 |
+| Recoveries, upgrades and others | (11,763) | (11,492) | (3,620) |
+| Net additions before write-offs/sales | 8,448 | 7,655 | 1,213 |
+| Write-offs | (9,270) | (8,424) | (1,592) |
+| Sale of NPAs | (2,974) | (345) | (133) |
+| Closing gross NPAs | 24,166 | 23,052 | 23,335 |
+
+The stock bridge reconciles exactly. Q2 FY2027 ratio measures are based on customer assets; the FY2026 standalone financial-statement GNPA ratio of 1.44% is defined as gross NPA to gross advances. Keep these denominator definitions distinct.
+
+## Risk-event evidence additions
+
+- **2016–2018 banking NPA recognition:** ICICI standalone GNPA was 7.89% in FY2017, 8.84% in FY2018 and 6.70% in FY2019; FY2017–FY2018 values are from ICRA rating rationales and FY2019 from ICICI's Q4 FY2019 performance review.
+- **IL&FS, August–September 2018:** RBI documents the default on commercial paper, funding-market risk aversion, higher funding costs and liquidity stress across parts of the NBFC/HFC sector. [RBI Bulletin](https://www.rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=19658) and [RBI Annual Report 2018–19](https://www.rbi.org.in/Scripts/AnnualReportPublications.aspx?Id=1257).
+- **Videocon governance controversy, 2018–2019:** the ICICI independent enquiry found code-of-conduct, conflict-of-interest and recusal/disclosure violations; the bank stated the report had no implications for its published financial statements. The loan itself became an NPA; do not treat the full sanctioned amount as a realised loss. [Independent enquiry coverage](https://indianexpress.com/article/india/videocon-loan-case-independent-enquiry-finds-chanda-kochhar-violated-code-of-conduct/).
+- **Monetary tightening, May 2022–February 2023:** RBI increased the repo rate cumulatively by 250 bps from 4.0% to 6.5%. [RBI Annual Report 2022–23](https://rbi.org.in/scripts/AnnualReportPublications.aspx?Id=1384).
+- **Bajaj Finance FY2025 provisioning:** consolidated loan-loss provisions increased 72% to ₹7,966 crore from ₹4,631 crore, while AUM grew 26%; management cited macro deterioration and increasing leverage on unsecured loans. [Bajaj Finance FY2025 Annual Report](https://www.bajajfinserv.in/finance-digital-annual-report-fy25/bajaj-finance-ltd-ar-2024-25-assets/pdf/annual-report-fy2025.pdf).
+- **Bajaj Finance leadership changes, 2025:** Rajeev Jain moved from MD to Vice Chairman on 1 April 2025; Anup Saha became MD and resigned on 21 July 2025, after which Rajeev Jain was re-designated VC & MD. [FY25 corporate information](https://www.bajajfinserv.in/finance-digital-annual-report-fy25/corporate-information.html) and [Q1 FY26 investor presentation](https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q1-fy26-investor-presentationpdf?amp%3Bscl=1&fmt=pdf).
