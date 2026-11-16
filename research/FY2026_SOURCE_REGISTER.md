@@ -137,3 +137,8 @@ The stock bridge reconciles exactly. Q2 FY2027 ratio measures are based on custo
 ## Market reaction data file
 
 The dashboard's three reported raw market-reaction snapshots are also stored in [market_event_reaction_snapshots.csv](../data/market_event_reaction_snapshots.csv). Each row records the date, institution, event, reported move, move type, benchmark observation, limitation and source URL. These are secondary-source observations, not adjusted returns or abnormal returns.
+
+
+## Market reaction data file
+
+The dashboard's three reported raw market-reaction snapshots are also stored in [market_event_reaction_snapshots.csv](../data/market_event_reaction_snapshots.csv). Each row records the date, institution, event, reported move, move type, benchmark observation, limitation and source URL. These are secondary-source observations, not adjusted returns or abnormal returns.
