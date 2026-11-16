@@ -79,3 +79,12 @@ The historical working CSV now includes a source-referenced ICICI standalone GNP
 | FY2019 | 6.70% | 2.06% | 70.6% |
 
 Sources: [ICRA ICICI Bank rating rationale](https://www.icra.in/Rating/GetRationalReportFilePdf/79066) for FY2017 and [ICRA FY2018 rating rationale](https://www.icra.in/Rating/ShowRationalReportFilePdf/72272); [ICICI Bank Q4 FY2019 performance review](https://www.icici.bank.in/about-us/news-room/2019/news-dadad) for FY2019. PCR values exclude technical/prudential write-offs; do not mix with coverage measures that include them.
+
+
+## Descriptive market-reaction snapshots (not an event study)
+
+- **16 November 2023 — Bajaj Finance:** [Business Standard](https://www.business-standard.com/markets/news/bajaj-fin-falls-4-as-rbi-bars-lending-under-ecom-insta-emi-card-schemes-123111600189_1.html) reported an approximately 4% intraday fall after the RBI restriction, followed by recovery and a close 1.9% higher. Intraday low and closing return are different measures.
+- **3 May 2024 — Bajaj Finance:** [The Indian Express](https://indianexpress.com/article/business/market/bajaj-finance-shares-rally-rbi-lifts-restriction-9305037/) reported a roughly 7.5% early-session rise after the restrictions were lifted.
+- **5 May 2025 — ICICI Bank:** [MarketWatch](https://www.marketwatch.com/story/icici-bank-falls-monday-outperforms-competitors-4a6fe256-699094bef78e) reported a 0.21% decline while the Sensex rose 0.37%, following the RBI penalty announcement.
+
+These are secondary-source, unadjusted trading snapshots. They are not close-to-close adjusted returns, abnormal returns or evidence of causation. The full event study remains pending daily adjusted price and matched benchmark data.
