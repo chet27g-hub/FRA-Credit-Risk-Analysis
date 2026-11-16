@@ -50,7 +50,7 @@ GNPA measures the stock of gross non-performing loans. NNPA reflects the residua
 
 Credit cost measures the flow of impairment or provisioning expense relative to a defined loan-book or asset denominator. Its precise denominator varies, so the analyst must use the company's stated methodology.
 
-For ICICI Bank, the FY2025 to FY2026 standalone comparison shows GNPA declining from 1.73% to 1.44%, a reduction of 0.29 percentage points. NNPA declined from 0.42% to 0.35%, a reduction of 0.07 percentage points. PCR moved from 76.2% to 75.8%, a decline of 0.4 percentage points.
+For ICICI Bank, the ten-year standalone GNPA series shows the ratio rising from 7.89% in FY2017 to 8.84% in FY2018, before declining to 6.70% in FY2019 and 1.44% in FY2026. The FY2025 to FY2026 comparison shows a further reduction from 1.73% to 1.44%, or 0.29 percentage points. NNPA declined from 4.89% in FY2017 to 4.77% in FY2018 and 2.06% in FY2019, then reached 0.35% in FY2026. From FY2025 to FY2026 it declined from 0.42% to 0.35%, a reduction of 0.07 percentage points. PCR moved from 76.2% to 75.8%, a decline of 0.4 percentage points.
 
 The direction is positive for gross and net asset quality, while coverage declined slightly. This does not prove why the improvement occurred. We would need to reconcile fresh slippages, recoveries, upgrades, write-offs, portfolio growth and other adjustments to understand the movement.
 
