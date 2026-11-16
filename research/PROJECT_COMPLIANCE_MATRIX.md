@@ -114,3 +114,8 @@ The original assignment PDF was reviewed. ICICI's ten-year GNPA/NNPA/PCR observa
 ## Peer-series merger structural breaks
 
 The Peer Benchmarking page now flags the HDFC Ltd–HDFC Bank merger effective 1 July 2023 and the Shriram Transport Finance–Shriram City Union Finance merger in December 2022. Historical growth and credit-risk series for these entities require pro forma predecessor consolidation or explicit structural-break treatment.
+
+
+## Automated QA workflow
+
+A Playwright browser test and GitHub Actions workflow have been added. The automated checks cover all six sections, dynamic FY2026 peer tables, ten-year ICICI historical rows, metric switching, risk-event filtering, market-period filtering and presentation mode. The first run is pending; its result will determine whether browser QA can be marked complete.
