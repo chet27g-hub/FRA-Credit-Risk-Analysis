@@ -16,10 +16,10 @@ Website: https://chet27g-hub.github.io/FRA-Credit-Risk-Analysis/
 | FY2026 Bajaj standalone snapshot | Done for headline ratios | GNPA 1.27%, NNPA 0.52%, Stage 3 PCR 60%, AUM ₹3,72,986 crore; loan-loss/provision caveat documented. |
 | FY2026 peer snapshots | Partial | FY26 snapshot for four banks and four NBFCs added. Definitions differ and are disclosed. Some scale metrics use AUM while Shriram is balance-sheet loans. |
 | H1 FY2027 Bajaj update | Done | AUM ₹4,26,879 crore, GNPA 1.33%, NNPA 0.53%, Stage 3 PCR 60%, displayed separately. |
-| FY2017–FY2026 ICICI history | Partial | Existing working observations retained; FY17–FY19 gaps and historical source-to-cell audit remain. FY25–FY26 anchors corrected to the supplied official figures. |
+| FY2017–FY2026 ICICI history | Partial | GNPA/NNPA/PCR populated with source links for all ten years; denominator/PCR definition breaks documented. FY2020–FY2024 page-level source and denominator QA remains. |
 | FY2017–FY2026 Bajaj history | Partial | Existing consolidated working series retained; full annual-report reconciliation and separation of RBI NPA vs Ind AS Stage 3 remain. |
 | Ten-year historical data for all six peers | Pending | FY21–FY25 chart series remain provisional; annual-report extraction required. |
-| Slippages, recoveries, upgrades and write-offs | Pending | Need year-by-year extraction and NPA stock reconciliation from company reports. |
+| Slippages, recoveries, upgrades and write-offs | Partial | ICICI FY25, FY26 and Q2 FY27 gross NPA bridges reconcile exactly; historical FY17–FY24 and peer-level flows remain to be extracted. |
 | Comparable credit cost | Pending | Must harmonize numerator and denominator or show separate definitions. |
 | Systematic and idiosyncratic risk framework | Partial | COVID-19, IL&FS, monetary/regulatory channels and company-specific RBI events are included; quantified before/after peer effects remain. |
 | Stock-market annual series | Partial | Working closes are shown, but corporate-action and exchange-source audit remains incomplete. |
@@ -31,7 +31,7 @@ Website: https://chet27g-hub.github.io/FRA-Credit-Risk-Analysis/
 | Fifteen-minute presentation script | Done as a draft | Script and 24 viva questions are in the companion presentation file. It explicitly avoids unsupported historical and market claims. |
 | Mobile / browser / interaction testing | Pending | Repository code structure checked; full browser QA has not been completed. |
 | Live GitHub Pages deployment | Not confirmed | Commits are on the default branch. Published URL could not be independently fetched in this session; do not claim live deployment success. |
-| Original assignment PDF reconciliation | Pending | Original project PDF was not included with the master prompt. |
+| Original assignment PDF reconciliation | Done | Original project PDF and detailed execution notes reviewed; final six-section structure mapped. |
 
 ## Verification rules used
 
@@ -104,3 +104,8 @@ The original assignment PDF and uploaded detailed execution notes have been revi
 - Market analysis: period selector added for Banking NPA Stress, IL&FS, COVID-19, Monetary Tightening and Regulatory Developments. Three unadjusted market-reaction snapshots are sourced; daily adjusted-price event study and correlation remain incomplete.
 - Website UX: single light CSS system, responsive layout, section progress, previous/next controls, keyboard navigation and full-screen presentation mode added.
 - Original brief reconciliation: done. Live browser QA and latest GitHub Pages publication verification remain pending until the latest workflow completes.
+
+
+## Source and scope clarification
+
+The original assignment PDF was reviewed. ICICI's ten-year GNPA/NNPA/PCR observations now have source links; they are not a perfectly homogeneous time series because the denominator and PCR write-off conventions vary. The dashboard explicitly marks those breaks. The historical peer data for the other seven institutions and Bajaj's consolidated historical source-to-cell audit remain incomplete.
