@@ -72,3 +72,8 @@ Website: https://chet27g-hub.github.io/FRA-Credit-Risk-Analysis/
 ## Historical-series update — ICICI Bank FY2017–FY2019
 
 The historical working CSV now contains source-referenced ICICI standalone GNPA, NNPA and PCR observations for FY2017, FY2018 and FY2019. These complete a ten-year ICICI ratio horizon through FY2026. FY2017–FY2018 figures use ICRA rating disclosures; FY2019 uses the bank's Q4 FY2019 performance review. PCR is explicitly on an excluding technical/prudential write-off basis. FY2020–FY2024 still require full annual-report source-to-cell reconciliation. Bajaj Finance remains a FY2018–FY2026 consolidated working series, with the standalone FY2025–FY2026 comparison shown separately.
+
+
+## Market-reaction evidence update
+
+Three secondary-source short-term market-reaction snapshots have been added to Page 5: Bajaj Finance after the November 2023 RBI restriction, Bajaj Finance after the May 2024 lifting, and ICICI Bank after the May 2025 penalty. They are labelled as unadjusted observations only. Daily adjusted-price event windows, abnormal returns and statistical correlation remain pending.
