@@ -56,3 +56,8 @@ A GitHub Actions workflow at `.github/workflows/dashboard-qa.yml` runs Playwrigh
 - [GitHub Pages build and deployment — passed](https://github.com/chet27g-hub/FRA-Credit-Risk-Analysis/actions/runs/43869754207)
 
 Manual device-level mobile testing remains outstanding.
+
+
+### Ten-year stock-market history
+
+`data/ten_year_stock_price_history.csv` contains 2016–2025 annual year-end adjusted closing prices for ICICI Bank and Bajaj Finance. The Market Reaction section renders separate ₹ price charts and a 2016=100 indexed comparison. Source links and methodology are documented in `research/FY2026_SOURCE_REGISTER.md`.
